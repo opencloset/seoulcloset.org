@@ -1,0 +1,321 @@
+% layout 'seoulcloset', title => '옷장 정리 이야기', body_class => 'archive paged category category-stories category-3 paged-3 category-paged-3', active => 'stories';
+
+  <style>
+  .story_info {
+  	height: 160px;
+  	background-image: url(/assets/img/story_background.png);
+  	background-repeat: repeat-x;
+  	text-align: center;
+  	padding-top: 40px;
+  }
+  
+  .story .wrapp .container .span3 img.attachment-thumbnail {
+  	max-width:220px; 
+  	width: expression(this.width > 220 ? 220: true); 
+  	height: 220px;
+  } 
+  
+  .story .box_container .box { background-color:#f8ce08; }
+  .story .box_container .span3, 
+  .story .box_container .span6 { position: relative; margin-bottom:20px; font-size:12px; font-weight: normal; }
+  .story .box_container .photo_left { margin-bottom:20px; }
+  .story .box_container img.attachment-thumbnail { filter: gray; /* IE6-9 */ -webkit-filter: grayscale(100%); }
+
+  .story .box_container .span6 .interview { position:absolute; right:0; top:0; width:140px; height:140px; overflow:hidden; text-align:center; padding:40px 40px; }
+  .story .box_container .span6 .interview p { font-size:16px; font-weight:bold; margin-top:10px; }
+  .story .box_container .span6 img.attachment-thumbnail { width:210px; height:200px; margin:10px; }
+  .story .box_container .span6 a { color:#000; text-decoration:none; }
+  
+  .story .box_container .span3 .location { 
+    position: absolute; top:0; left:0;
+  	background-image: url(/assets/img/story_icon.png) no-repeat;
+    padding-top:30%;color:#fff; font-weight: bold; font-size: 18px; text-align: center; 
+    opacity:0;filter:alpha(opacity=0);
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    background: rgb(248,206,8);
+    background: rgba(248,206,8,0.6);
+    width:140px; height:160px; overflow:hidden; text-align:center; padding:30px 40px; 
+  }
+  .story .box_container .span3 .location p { font-size:16px; font-weight:bold; margin-top:10px; line-height:1.2; }
+  .story .box_container .span3 img.attachment-thumbnail { width:100%;}
+  .story .box_container .span3 a { color:#fff; text-decoration:none; }
+  .story .box_container .span3.box:hover .location { -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; filter:alpha(opacity=100); -moz-opacity:1; -khtml-opacity:1; opacity:1; }    
+
+  .story .box_container .span6 .location { display: none; }
+  .story .box_container .span3 .interview { display: none; }
+  
+</style>
+<div class="story_info">
+	<img src="/assets/img/story_info_text.png"/>
+</div>
+<div class="wrap container" role="document">
+  <div class="content">
+    <div class="main span12" role="main">      
+		  <div class="story">
+				<div class="wrapp">
+					<div class="container" style='margin-left:-10px;'>
+            <div class="row box_container">
+                              <div class="box span6 left photo_left">
+                  <img width="150" height="150" src="<%= url_for '/' %>wp-content/uploads/2013/11/mms_img284663054-150x150.jpg" class="attachment-thumbnail wp-post-image" alt="mms_img284663054">                  <div class='interview'>
+                    <a href='<%= url_for '/' %>%ea%b9%80%ec%a3%bc%ed%9d%ac-%eb%8b%98/'>
+                      <img src="/assets/img/icon_hanger.png">
+                      <p>신림동 김주희 님</p>
+                      <span>READ MORE</span>
+                    </a>
+                  </div>
+                  <div class='location'>
+                    <a href='<%= url_for '/' %>%ea%b9%80%ec%a3%bc%ed%9d%ac-%eb%8b%98/'>
+                      <img src="/assets/img/icon_magnifier.png">
+                      <p>신림동 김주희 님</p>
+                      <span>READ MORE</span>
+                    </a>
+                  </div>
+                </div>
+                              <div class="box span3">
+                  <img width="150" height="150" src="<%= url_for '/' %>wp-content/uploads/2013/11/20131029_173623-150x150.jpg" class="attachment-thumbnail wp-post-image" alt="20131029_173623">                  <div class='interview'>
+                    <a href='<%= url_for '/' %>%ea%b9%80%ec%86%8c%ec%97%b0-%eb%8b%98/'>
+                      <img src="/assets/img/icon_hanger.png">
+                      <p>성산동 김소연 님</p>
+                      <span>READ MORE</span>
+                    </a>
+                  </div>
+                  <div class='location'>
+                    <a href='<%= url_for '/' %>%ea%b9%80%ec%86%8c%ec%97%b0-%eb%8b%98/'>
+                      <img src="/assets/img/icon_magnifier.png">
+                      <p>성산동 김소연 님</p>
+                      <span>READ MORE</span>
+                    </a>
+                  </div>
+                </div>
+                              <div class="box span3 offset3 left">
+                  <img width="150" height="150" src="<%= url_for '/' %>wp-content/uploads/2013/11/mms_img1425503869-150x150.jpg" class="attachment-thumbnail wp-post-image" alt="mms_img1425503869">                  <div class='interview'>
+                    <a href='<%= url_for '/' %>%ea%b9%80%eb%b3%b4%eb%af%b8-%eb%8b%98/'>
+                      <img src="/assets/img/icon_hanger.png">
+                      <p>사당동 김보미 님</p>
+                      <span>READ MORE</span>
+                    </a>
+                  </div>
+                  <div class='location'>
+                    <a href='<%= url_for '/' %>%ea%b9%80%eb%b3%b4%eb%af%b8-%eb%8b%98/'>
+                      <img src="/assets/img/icon_magnifier.png">
+                      <p>사당동 김보미 님</p>
+                      <span>READ MORE</span>
+                    </a>
+                  </div>
+                </div>
+                              <div class="box span3">
+                  <img width="150" height="150" src="<%= url_for '/' %>wp-content/uploads/2013/11/mms_img-1631539711-150x150.jpg" class="attachment-thumbnail wp-post-image" alt="mms_img-1631539711">                  <div class='interview'>
+                    <a href='<%= url_for '/' %>%ea%b9%80%eb%ac%b8%ec%98%81-%eb%8b%98/'>
+                      <img src="/assets/img/icon_hanger.png">
+                      <p>천호동 김문영 님</p>
+                      <span>READ MORE</span>
+                    </a>
+                  </div>
+                  <div class='location'>
+                    <a href='<%= url_for '/' %>%ea%b9%80%eb%ac%b8%ec%98%81-%eb%8b%98/'>
+                      <img src="/assets/img/icon_magnifier.png">
+                      <p>천호동 김문영 님</p>
+                      <span>READ MORE</span>
+                    </a>
+                  </div>
+                </div>
+                              <div class="box span3">
+                  <img width="150" height="150" src="<%= url_for '/' %>wp-content/uploads/2013/11/1383190236697-150x150.jpg" class="attachment-thumbnail wp-post-image" alt="1383190236697">                  <div class='interview'>
+                    <a href='<%= url_for '/' %>%ea%b9%80%ea%b2%bd%ed%9d%ac-%eb%8b%98/'>
+                      <img src="/assets/img/icon_hanger.png">
+                      <p>구로동 김경희 님</p>
+                      <span>READ MORE</span>
+                    </a>
+                  </div>
+                  <div class='location'>
+                    <a href='<%= url_for '/' %>%ea%b9%80%ea%b2%bd%ed%9d%ac-%eb%8b%98/'>
+                      <img src="/assets/img/icon_magnifier.png">
+                      <p>구로동 김경희 님</p>
+                      <span>READ MORE</span>
+                    </a>
+                  </div>
+                </div>
+                              <div class="box span3 left">
+                  <img width="150" height="150" src="<%= url_for '/' %>wp-content/uploads/2013/11/20131017_하지희-150x150.jpg" class="attachment-thumbnail wp-post-image" alt="20131017_하지희">                  <div class='interview'>
+                    <a href='<%= url_for '/' %>%ed%95%98%ec%a7%80%ed%9d%ac-%eb%8b%98/'>
+                      <img src="/assets/img/icon_hanger.png">
+                      <p>문정동 하지희 님</p>
+                      <span>READ MORE</span>
+                    </a>
+                  </div>
+                  <div class='location'>
+                    <a href='<%= url_for '/' %>%ed%95%98%ec%a7%80%ed%9d%ac-%eb%8b%98/'>
+                      <img src="/assets/img/icon_magnifier.png">
+                      <p>문정동 하지희 님</p>
+                      <span>READ MORE</span>
+                    </a>
+                  </div>
+                </div>
+                              <div class="box span3 left">
+                  <img width="150" height="150" src="<%= url_for '/' %>wp-content/uploads/2013/11/20131022_160250-150x150.jpg" class="attachment-thumbnail wp-post-image" alt="20131022_160250">                  <div class='interview'>
+                    <a href='<%= url_for '/' %>%ed%95%98%ec%84%b1%ea%b3%b5-%eb%8b%98/'>
+                      <img src="/assets/img/icon_hanger.png">
+                      <p>신도림동 하성공 님</p>
+                      <span>READ MORE</span>
+                    </a>
+                  </div>
+                  <div class='location'>
+                    <a href='<%= url_for '/' %>%ed%95%98%ec%84%b1%ea%b3%b5-%eb%8b%98/'>
+                      <img src="/assets/img/icon_magnifier.png">
+                      <p>신도림동 하성공 님</p>
+                      <span>READ MORE</span>
+                    </a>
+                  </div>
+                </div>
+                              <div class="box span6 photo_left">
+                  <img width="150" height="150" src="<%= url_for '/' %>wp-content/uploads/2013/11/mms_img-1329604390-150x150.jpg" class="attachment-thumbnail wp-post-image" alt="mms_img-1329604390">                  <div class='interview'>
+                    <a href='<%= url_for '/' %>%ec%b5%9c%eb%af%b8%ea%b2%bd-%eb%8b%98/'>
+                      <img src="/assets/img/icon_hanger.png">
+                      <p>사당동 최미경 님</p>
+                      <span>READ MORE</span>
+                    </a>
+                  </div>
+                  <div class='location'>
+                    <a href='<%= url_for '/' %>%ec%b5%9c%eb%af%b8%ea%b2%bd-%eb%8b%98/'>
+                      <img src="/assets/img/icon_magnifier.png">
+                      <p>사당동 최미경 님</p>
+                      <span>READ MORE</span>
+                    </a>
+                  </div>
+                </div>
+                              <div class="box span6 left photo_right">
+                  <img width="150" height="150" src="<%= url_for '/' %>wp-content/uploads/2013/11/20131023_155148-150x150.jpg" class="attachment-thumbnail wp-post-image" alt="20131023_155148">                  <div class='interview'>
+                    <a href='<%= url_for '/' %>%ec%84%9c%ec%9d%80%ec%a7%80-%eb%8b%98/'>
+                      <img src="/assets/img/icon_hanger.png">
+                      <p>홍제동 서은지 님</p>
+                      <span>READ MORE</span>
+                    </a>
+                  </div>
+                  <div class='location'>
+                    <a href='<%= url_for '/' %>%ec%84%9c%ec%9d%80%ec%a7%80-%eb%8b%98/'>
+                      <img src="/assets/img/icon_magnifier.png">
+                      <p>홍제동 서은지 님</p>
+                      <span>READ MORE</span>
+                    </a>
+                  </div>
+                </div>
+                              <div class="box span3">
+                  <img width="150" height="150" src="<%= url_for '/' %>wp-content/uploads/2013/11/20131008_172752-150x150.jpg" class="attachment-thumbnail wp-post-image" alt="20131008_172752">                  <div class='interview'>
+                    <a href='<%= url_for '/' %>%eb%b0%95%eb%82%98%ec%98%81-%eb%8b%98/'>
+                      <img src="/assets/img/icon_hanger.png">
+                      <p>신월동 박나영 님</p>
+                      <span>READ MORE</span>
+                    </a>
+                  </div>
+                  <div class='location'>
+                    <a href='<%= url_for '/' %>%eb%b0%95%eb%82%98%ec%98%81-%eb%8b%98/'>
+                      <img src="/assets/img/icon_magnifier.png">
+                      <p>신월동 박나영 님</p>
+                      <span>READ MORE</span>
+                    </a>
+                  </div>
+                </div>
+                              <div class="box span3">
+                  <img width="150" height="150" src="<%= url_for '/' %>wp-content/uploads/2013/11/DSCF4373-150x150.jpg" class="attachment-thumbnail wp-post-image" alt="DSCF4373">                  <div class='interview'>
+                    <a href='<%= url_for '/' %>%eb%82%a8%ed%8e%b8%ea%b3%bc%ec%9d%98-%ec%b6%94%ec%96%b5%ec%9d%b4-%eb%8b%b4%ea%b8%b4-%ea%b2%b0%ed%98%bc%ec%98%88%eb%b3%b5%ec%9d%b4%ec%97%90%ec%9a%94/'>
+                      <img src="/assets/img/icon_hanger.png">
+                      <p>방화동 이혜영 님</p>
+                      <span>READ MORE</span>
+                    </a>
+                  </div>
+                  <div class='location'>
+                    <a href='<%= url_for '/' %>%eb%82%a8%ed%8e%b8%ea%b3%bc%ec%9d%98-%ec%b6%94%ec%96%b5%ec%9d%b4-%eb%8b%b4%ea%b8%b4-%ea%b2%b0%ed%98%bc%ec%98%88%eb%b3%b5%ec%9d%b4%ec%97%90%ec%9a%94/'>
+                      <img src="/assets/img/icon_magnifier.png">
+                      <p>방화동 이혜영 님</p>
+                      <span>READ MORE</span>
+                    </a>
+                  </div>
+                </div>
+                              <div class="box span6 left photo_left">
+                  <img width="150" height="150" src="<%= url_for '/' %>wp-content/uploads/2013/11/20130926_143058-150x150.jpg" class="attachment-thumbnail wp-post-image" alt="20130926_143058">                  <div class='interview'>
+                    <a href='<%= url_for '/' %>%eb%a9%b4%ec%a0%91%eb%b3%b4%eb%a9%b4-%eb%b6%99%eb%8a%94%eb%8b%a4%eb%8a%94-%ea%b0%81%ec%98%a4/'>
+                      <img src="/assets/img/icon_hanger.png">
+                      <p>암사동 김연정 님</p>
+                      <span>READ MORE</span>
+                    </a>
+                  </div>
+                  <div class='location'>
+                    <a href='<%= url_for '/' %>%eb%a9%b4%ec%a0%91%eb%b3%b4%eb%a9%b4-%eb%b6%99%eb%8a%94%eb%8b%a4%eb%8a%94-%ea%b0%81%ec%98%a4/'>
+                      <img src="/assets/img/icon_magnifier.png">
+                      <p>암사동 김연정 님</p>
+                      <span>READ MORE</span>
+                    </a>
+                  </div>
+                </div>
+                              <div class="box span3">
+                  <img width="150" height="150" src="<%= url_for '/' %>wp-content/uploads/2013/11/20131005_180333-150x150.jpg" class="attachment-thumbnail wp-post-image" alt="20131005_180333">                  <div class='interview'>
+                    <a href='<%= url_for '/' %>%ec%9d%bc%eb%b0%98%ec%9d%b8%ec%9d%98-%ec%86%90%ea%b8%b8%ea%b3%bc-%ec%b0%a8%ec%9b%90%ec%9d%b4-%eb%8b%ac%eb%9d%bc%ec%9a%94/'>
+                      <img src="/assets/img/icon_hanger.png">
+                      <p>신도림동 김희정 님</p>
+                      <span>READ MORE</span>
+                    </a>
+                  </div>
+                  <div class='location'>
+                    <a href='<%= url_for '/' %>%ec%9d%bc%eb%b0%98%ec%9d%b8%ec%9d%98-%ec%86%90%ea%b8%b8%ea%b3%bc-%ec%b0%a8%ec%9b%90%ec%9d%b4-%eb%8b%ac%eb%9d%bc%ec%9a%94/'>
+                      <img src="/assets/img/icon_magnifier.png">
+                      <p>신도림동 김희정 님</p>
+                      <span>READ MORE</span>
+                    </a>
+                  </div>
+                </div>
+                              <div class="box span3 offset3 left">
+                  <img width="150" height="150" src="<%= url_for '/' %>wp-content/uploads/2013/07/스크린샷-2013-07-02-오후-9.22.19-150x150.png" class="attachment-thumbnail wp-post-image" alt="스크린샷 2013-07-02 오후 9.22.19">                  <div class='interview'>
+                    <a href='<%= url_for '/' %>%ec%b9%9c%ea%b5%ac%ec%99%80-%eb%b0%b1%ed%99%94%ec%a0%90%ec%9d%84-%eb%8f%8c%ec%95%84%eb%8b%a4%eb%8b%8c-%ec%b6%94%ec%96%b5/'>
+                      <img src="/assets/img/icon_hanger.png">
+                      <p>사근동 양경숙 님</p>
+                      <span>READ MORE</span>
+                    </a>
+                  </div>
+                  <div class='location'>
+                    <a href='<%= url_for '/' %>%ec%b9%9c%ea%b5%ac%ec%99%80-%eb%b0%b1%ed%99%94%ec%a0%90%ec%9d%84-%eb%8f%8c%ec%95%84%eb%8b%a4%eb%8b%8c-%ec%b6%94%ec%96%b5/'>
+                      <img src="/assets/img/icon_magnifier.png">
+                      <p>사근동 양경숙 님</p>
+                      <span>READ MORE</span>
+                    </a>
+                  </div>
+                </div>
+                              <div class="box span3">
+                  <img width="150" height="150" src="<%= url_for '/' %>wp-content/uploads/2013/11/20131005_125325-e1383793019581-150x150.jpg" class="attachment-thumbnail wp-post-image" alt="20131005_125325">                  <div class='interview'>
+                    <a href='<%= url_for '/' %>%ec%a0%95%eb%a6%ac%ec%9d%98-%ed%95%84%ec%9a%94%ec%84%b1%ec%9d%84-%ec%a0%88%ec%8b%a4%ed%9e%88-%eb%8a%90%ea%bc%88%ec%96%b4%ec%9a%94/'>
+                      <img src="/assets/img/icon_hanger.png">
+                      <p>무악동 서혜주 님</p>
+                      <span>READ MORE</span>
+                    </a>
+                  </div>
+                  <div class='location'>
+                    <a href='<%= url_for '/' %>%ec%a0%95%eb%a6%ac%ec%9d%98-%ed%95%84%ec%9a%94%ec%84%b1%ec%9d%84-%ec%a0%88%ec%8b%a4%ed%9e%88-%eb%8a%90%ea%bc%88%ec%96%b4%ec%9a%94/'>
+                      <img src="/assets/img/icon_magnifier.png">
+                      <p>무악동 서혜주 님</p>
+                      <span>READ MORE</span>
+                    </a>
+                  </div>
+                </div>
+                          </div>
+
+            
+            <div class='wp-pagenavi'>
+<span class='pages'>Page 3 of 5</span><a href='<%= url_for '/' %>category/stories/page/2/' class='previouspostslink'>&laquo;</a><a href='<%= url_for '/' %>category/stories/' class='page smaller'>1</a><a href='<%= url_for '/' %>category/stories/page/2/' class='page smaller'>2</a><span class='current'>3</span><a href='<%= url_for '/' %>category/stories/page/4/' class='page larger'>4</a><a href='<%= url_for '/' %>category/stories/page/5/' class='page larger'>5</a><a href='<%= url_for '/' %>category/stories/page/4/' class='nextpostslink'>&raquo;</a>
+</div>              <!--
+<nav class="post-nav">
+                <ul class="pager">
+                  <li class="previous"><a href="<%= url_for '/' %>category/stories/page/4/" >&larr; Older posts</a></li>
+                  <li class="next"><a href="<%= url_for '/' %>category/stories/page/2/" >Newer posts &rarr;</a></li>
+                </ul>
+              </nav>
+-->
+                        				
+					</div> <!-- container -->
+				</div> <!-- wrapp -->
+			</div> <!-- story -->
+    </div><!-- /.main -->
+  </div><!-- /.content -->
+</div><!-- /.wrap -->

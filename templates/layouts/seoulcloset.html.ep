@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title><%= $title ? "$title | " : q{} %>서울시민 열린옷장</title>
+  <!-- meta name="viewport" content="width=device-width, initial-scale=1.0"-->
+
+  
+            <script type="text/javascript">//<![CDATA[
+            // Google Analytics for WordPress by Yoast v4.3.3 | http://yoast.com/wordpress/google-analytics/
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-42167326-1']);
+				            _gaq.push(['_trackPageview']);
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+            //]]></script>
+			<link rel="stylesheet" href="<%= url_for '/' %>assets/css/bootstrap.css">
+<link rel="stylesheet" href="<%= url_for '/' %>assets/css/app.css">
+<link rel="stylesheet" href="<%= url_for '/' %>plugins/wp-pagenavi/pagenavi-css.css?ver=2.70">
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js'></script>
+<script>window.jQuery || document.write('<script src="<%= url_for '/' %>assets/js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+<script type='text/javascript' src='<%= url_for '/' %>assets/js/vendor/modernizr-2.6.2.min.js'></script>
+<style type="text/css" media="screen">body{position:relative}#dynamic-to-top{display:none;overflow:hidden;width:auto;z-index:90;position:fixed;bottom:20px;right:20px;top:auto;left:auto;font-family:sans-serif;font-size:1em;color:#fff;text-decoration:none;text-shadow:0 1px 0 #333;font-weight:bold;padding:15px 15px;border:3px solid #f8ce08;background:#f8ce08;-webkit-background-origin:border;-moz-background-origin:border;-icab-background-origin:border;-khtml-background-origin:border;-o-background-origin:border;background-origin:border;-webkit-background-clip:padding-box;-moz-background-clip:padding-box;-icab-background-clip:padding-box;-khtml-background-clip:padding-box;-o-background-clip:padding-box;background-clip:padding-box;-webkit-box-shadow:0 1px 3px rgba( 0, 0, 0, 0.4 ), inset 0 0 0 1px rgba( 0, 0, 0, 0.2 ), inset 0 1px 0 rgba( 255, 255, 255, .4 ), inset 0 10px 10px rgba( 255, 255, 255, .1 );-ms-box-shadow:0 1px 3px rgba( 0, 0, 0, 0.4 ), inset 0 0 0 1px rgba( 0, 0, 0, 0.2 ), inset 0 1px 0 rgba( 255, 255, 255, .4 ), inset 0 10px 10px rgba( 255, 255, 255, .1 );-moz-box-shadow:0 1px 3px rgba( 0, 0, 0, 0.4 ), inset 0 0 0 1px rgba( 0, 0, 0, 0.2 ), inset 0 1px 0 rgba( 255, 255, 255, .4 ), inset 0 10px 10px rgba( 255, 255, 255, .1 );-o-box-shadow:0 1px 3px rgba( 0, 0, 0, 0.4 ), inset 0 0 0 1px rgba( 0, 0, 0, 0.2 ), inset 0 1px 0 rgba( 255, 255, 255, .4 ), inset 0 10px 10px rgba( 255, 255, 255, .1 );-khtml-box-shadow:0 1px 3px rgba( 0, 0, 0, 0.4 ), inset 0 0 0 1px rgba( 0, 0, 0, 0.2 ), inset 0 1px 0 rgba( 255, 255, 255, .4 ), inset 0 10px 10px rgba( 255, 255, 255, .1 );-icab-box-shadow:0 1px 3px rgba( 0, 0, 0, 0.4 ), inset 0 0 0 1px rgba( 0, 0, 0, 0.2 ), inset 0 1px 0 rgba( 255, 255, 255, .4 ), inset 0 10px 10px rgba( 255, 255, 255, .1 );box-shadow:0 1px 3px rgba( 0, 0, 0, 0.4 ), inset 0 0 0 1px rgba( 0, 0, 0, 0.2 ), inset 0 1px 0 rgba( 255, 255, 255, .4 ), inset 0 10px 10px rgba( 255, 255, 255, .1 );-webkit-border-radius:26px;-moz-border-radius:26px;-icab-border-radius:26px;-khtml-border-radius:26px;border-radius:26px}#dynamic-to-top:hover{background:#57afe9;background:#f8ce08 -webkit-gradient( linear, 0% 0%, 0% 100%, from( rgba( 255, 255, 255, .2 ) ), to( rgba( 0, 0, 0, 0 ) ) );background:#f8ce08 -webkit-linear-gradient( top, rgba( 255, 255, 255, .2 ), rgba( 0, 0, 0, 0 ) );background:#f8ce08 -khtml-linear-gradient( top, rgba( 255, 255, 255, .2 ), rgba( 0, 0, 0, 0 ) );background:#f8ce08 -moz-linear-gradient( top, rgba( 255, 255, 255, .2 ), rgba( 0, 0, 0, 0 ) );background:#f8ce08 -o-linear-gradient( top, rgba( 255, 255, 255, .2 ), rgba( 0, 0, 0, 0 ) );background:#f8ce08 -ms-linear-gradient( top, rgba( 255, 255, 255, .2 ), rgba( 0, 0, 0, 0 ) );background:#f8ce08 -icab-linear-gradient( top, rgba( 255, 255, 255, .2 ), rgba( 0, 0, 0, 0 ) );background:#f8ce08 linear-gradient( top, rgba( 255, 255, 255, .2 ), rgba( 0, 0, 0, 0 ) );cursor:pointer}#dynamic-to-top:active{background:#f8ce08;background:#f8ce08 -webkit-gradient( linear, 0% 0%, 0% 100%, from( rgba( 0, 0, 0, .3 ) ), to( rgba( 0, 0, 0, 0 ) ) );background:#f8ce08 -webkit-linear-gradient( top, rgba( 0, 0, 0, .1 ), rgba( 0, 0, 0, 0 ) );background:#f8ce08 -moz-linear-gradient( top, rgba( 0, 0, 0, .1 ), rgba( 0, 0, 0, 0 ) );background:#f8ce08 -khtml-linear-gradient( top, rgba( 0, 0, 0, .1 ), rgba( 0, 0, 0, 0 ) );background:#f8ce08 -o-linear-gradient( top, rgba( 0, 0, 0, .1 ), rgba( 0, 0, 0, 0 ) );background:#f8ce08 -ms-linear-gradient( top, rgba( 0, 0, 0, .1 ), rgba( 0, 0, 0, 0 ) );background:#f8ce08 -icab-linear-gradient( top, rgba( 0, 0, 0, .1 ), rgba( 0, 0, 0, 0 ) );background:#f8ce08 linear-gradient( top, rgba( 0, 0, 0, .1 ), rgba( 0, 0, 0, 0 ) )}#dynamic-to-top,#dynamic-to-top:active,#dynamic-to-top:focus,#dynamic-to-top:hover{outline:none}#dynamic-to-top span{display:block;overflow:hidden;width:14px;height:12px;background:url( <%= url_for '/' %>plugins/dynamic-to-top/css/images/up.png )no-repeat center center}</style>
+  <link rel="alternate" type="application/rss+xml" title="서울시민 열린옷장 Feed" href="<%= url_for '/' %>feed/">
+</head>
+<body class="<%= $body_class %>">
+
+  <!--[if lt IE 7]><div class="alert">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</div><![endif]-->
+
+    <!-- header class="banner" role="banner">
+  <div class="container">
+    <a class="brand" href="<%= url_for '/' %>/">서울시민 열린옷장</a>
+    <nav class="nav-main" role="navigation">
+      <ul id="menu-gnb" class="nav nav-pills"><li class="<%= $active eq 'about' ? 'active' : q{} %> menu-%ec%84%9c%ec%9a%b8%ec%8b%9c%eb%af%bc-%ec%97%b4%eb%a6%b0%ec%98%b7%ec%9e%a5%ec%9d%b4%eb%9e%80"><a href="<%= url_for '/' %>about/" >서울시민 열린옷장이란?</a></li>
+<li class="<%= $active eq 'apply' ? 'active' : q{} %>  menu-%ec%a0%95%eb%a6%ac%ed%95%99%ea%b5%90-%ec%8b%a0%ec%b2%ad%ed%95%98%ea%b8%b0"><a href="<%= url_for '/' %>apply/" >정리학교 신청하기</a></li>
+<li class="<%= $active eq 'stories' ? 'active' : q{} %>  menu-%ec%98%b7%ec%9e%a5-%ec%a0%95%eb%a6%ac-%ec%9d%b4%ec%95%bc%ea%b8%b0"><a href="<%= url_for '/' %>category/stories/" >옷장 정리 이야기</a></li>
+<li class="<%= $active eq 'map' ? 'active' : q{} %>  menu-%ec%98%b7%ec%9e%a5%ec%9c%bc%eb%a1%9c-%ea%b7%b8%eb%a6%b0-%ec%a7%80%eb%8f%84"><a href="<%= url_for '/' %>map/" >옷장으로 그린 지도</a></li>
+</ul>    </nav>
+  </div>
+</header -->
+
+<div class="navbar navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container">
+		<link href="http://fonts.googleapis.com/earlyaccess/nanumgothic.css" type="text/css" rel="stylesheet">
+			<a class="brand" href="<%= url_for '/' %>"><img src="/assets/img/logo.png" alt="logo"></a>
+      <div class="nav-collapse collapse">
+        <ul id="menu-gnb-1" class="inline pull-right"><li class="<%= $active eq 'about' ? 'active' : q{} %> menu-%ec%84%9c%ec%9a%b8%ec%8b%9c%eb%af%bc-%ec%97%b4%eb%a6%b0%ec%98%b7%ec%9e%a5%ec%9d%b4%eb%9e%80"><a href="<%= url_for '/' %>about/" >서울시민 열린옷장이란?</a></li>
+<li class="<%= $active eq 'apply' ? 'active' : q{} %>  menu-%ec%a0%95%eb%a6%ac%ed%95%99%ea%b5%90-%ec%8b%a0%ec%b2%ad%ed%95%98%ea%b8%b0"><a href="<%= url_for '/' %>apply/" >정리학교 신청하기</a></li>
+<li class="<%= $active eq 'stories' ? 'active' : q{} %>  menu-%ec%98%b7%ec%9e%a5-%ec%a0%95%eb%a6%ac-%ec%9d%b4%ec%95%bc%ea%b8%b0"><a href="<%= url_for '/' %>category/stories/" >옷장 정리 이야기</a></li>
+<li class="<%= $active eq 'map' ? 'active' : q{} %>  menu-%ec%98%b7%ec%9e%a5%ec%9c%bc%eb%a1%9c-%ea%b7%b8%eb%a6%b0-%ec%a7%80%eb%8f%84"><a href="<%= url_for '/' %>map/" >옷장으로 그린 지도</a></li>
+</ul>      </div><!-- nav-collapse -->
+		</div> <!-- end. container -->
+	</div> <!-- end. navbar-inner -->
+</div> <!-- end. navbar navbar-inverse navbar-fixed-top"-->
+  %= content
+  <footer class="content-info" role="contentinfo">
+	<div class="container">
+	  <div class="row">
+	  	<div class="span3 logo">
+	  		<img src="/assets/img/footer_icon.png" alt="footer_icon"/>
+	  	</div>
+	  	<div class="span9 footer_text">
+		    서울특별시 광진구 화양동 48-3 웅진빌딩 403호 열린옷장, 우) 143-917 T) 070-7583-7521, email : share@theopencloset.net<p>
+		    서울특별시 비영리민간단체 제1508호 / 서울특별시 공유단체 지정 제26호  * 고유번호 206-80-16607 <p>
+		    © 2013 Seoulcloset.Org 서울시민 열린옷장 All Rights Reserved.<p>
+		</div>
+	  </div>
+	</div>
+</footer>
+
+<script type='text/javascript' src='<%= url_for '/' %>plugins/dynamic-to-top/js/libs/jquery.easing.js?ver=1.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mv_dynamic_to_top = {"text":"To Top","version":"0","min":"300","speed":"300","easing":"easeInExpo","margin":"20"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='<%= url_for '/' %>plugins/dynamic-to-top/js/dynamic.to.top.min.js?ver=3.4.2'></script>
+<script type='text/javascript' src='<%= url_for '/' %>assets/js/plugins.js'></script>
+<script type='text/javascript' src='<%= url_for '/' %>assets/js/main.js'></script>
+  
+
+</body>
+</html>

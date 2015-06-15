@@ -1,0 +1,111 @@
+  <style>
+  .story_sub_info {
+  	height: 160px;
+  	background-image: url(/assets/img/story_background.png);
+  	background-repeat: repeat-x;
+  	text-align: center;
+  	padding-top: 40px;
+  }
+  
+  body.single .content a { color:#f8ce08; }
+  body.single .content article .entry-title, body.single article time { color:#f8ce08; }
+  body.single .content article .entry-content { padding:2em 0; }
+  body.single .content article footer { background:none; }
+  body.single .content article .meta { color:#c1c1c1; }
+  body.single .content aside { color:#f8ce08; }
+  body.single .content aside .widget { margin-bottom:2em; }
+  body.single .content aside ul { }
+  body.single .content aside a { color:#000; }
+</style>
+<div class="story_sub_info">
+	<img src="/assets/img/story_info_text.png"/>
+</div>
+
+<div class="wrap container" role="document">
+  <div class="content row">
+
+    <div class="main span8" role="main">
+      <hr class='dot'>
+        <article class="post-240 post type-post status-publish format-standard hentry category-stories">
+    <header>
+      <h1 class="entry-title">제 맘까지 시원해졌어요~</h1>
+      <div class='meta'>
+  Posted 
+  at <time class="updated" datetime="2013-08-27T21:05:15+00:00" pubdate>2013-08-27</time>
+  by <span class="byline author vcard">By <a href="<%= url_for '/' %>author/10001if/" rel="author" class="fn">10001if</a></span>
+</div>
+    </header>
+    <div class="entry-content">
+      <p><a href="<%= url_for '/' %>wp-content/uploads/2013/08/그림1.png" ><img class="alignnone  wp-image-241" alt="그림1" src="<%= url_for '/' %>wp-content/uploads/2013/08/그림1.png" width="569" height="424" /></a></p>
+<p><!--[if !supportEmptyParas]--> <!--[endif]--></p>
+<p><strong>1. 신청한 계기는 어떻게 되나요?</strong></p>
+<p>작년에 이사를 하였어요.</p>
+<p>수납공간이 많던 곳에서 좀 적은 공간으로 이사를 하게 되었죠. 그러다보니 식구들 옷이 갈곳을 잃어 계속 쌓이게 되더군요.</p>
+<p><!--[if !supportEmptyParas]--> <!--[endif]--></p>
+<p><strong>2. 알게 되신 계기는요?</strong></p>
+<p>지인이 알려주었어요. 서울시민열린옷장이라는 나눔의 취지와 무료옷장정리라는 것이 맘에 쏙 들었어요.</p>
+<p>&nbsp;</p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/08/그림2.png" ><img class="alignnone  wp-image-242" alt="그림2" src="<%= url_for '/' %>wp-content/uploads/2013/08/그림2.png" width="610" height="455" /></a></p>
+<p>&nbsp;</p>
+<p><strong>3. 신청하시기 전 옷장정리, 기부 프로젝트에 대해 어떻게 생각하셨나요?</strong></p>
+<p>아파트 분리수거하는 날 의류함에 넣는 것과 아름다운 가게 정도만 알고 있었는데 이렇게 용도가 분명하게 청년들에게 도움을 주는 기부프로젝트라고 해서 독특하다고 생각했어요.</p>
+<p><!--[if !supportEmptyParas]--> <!--[endif]--></p>
+<p><strong>4 .내 품을 떠난 옷을 입는 사람들에게 하고 싶은 말이 있으신가요?</strong></p>
+<p>아이들 옷이 제 3세계 필요한 곳에 보내진다는 생각을 하면 마음이 따뜻해지는 것 같아요.</p>
+<p>정장은 많지가 않아 정말 쓸모가 있을지 모르겠지만 좋은 용도로 쓰여지길 바래요</p>
+<p>&nbsp;</p>
+<p><!--[if !supportEmptyParas]--></p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/08/그림4.jpg" ><img class="alignnone size-full wp-image-243" alt="그림4" src="<%= url_for '/' %>wp-content/uploads/2013/08/그림4.jpg" width="497" height="744" /></a></p>
+<p><!--[if !supportEmptyParas]--></p>
+<p>&nbsp;</p>
+<p><strong>5. 어떤 점이 도움이 되었나요?</strong></p>
+<p>일단 비우는 것에 대한 팁을 얻었고 비우니 다시 채워진다는 말처럼 집안의 먼지털듯이</p>
+<p>가끔 옷장도 털어야 겠다는 필요을 배우게 되었어요. 간단하고 수납이 용이한 정리강의도</p>
+<p>너무 좋았어요.</p>
+<p><!--[if !supportEmptyParas]--> <!--[endif]--></p>
+<p><strong>6. 옷장정리 후 느끼신 점이 있나요?</strong></p>
+<p>더운 여름날씨에 수고해주셔서 너무 감사하고 경제적 비용발생없이 이렇게 훌륭하게 저의 옷장을 정리해 주시니 옷장이 시원해지듯 제 맘도 시원해졌어요.</p>
+<p><!--[if !supportEmptyParas]--> <!--[endif]--></p>
+<p><!--[if !supportEmptyParas]--> <!--[endif]--></p>
+<p># 옷장정리 인터뷰 : 제타랩</p>
+<p><!--[if !supportEmptyParas]--> <!--[endif]--></p>
+<p><!--[if !supportEmptyParas]--> <!--[endif]--></p>
+<p><!--[if !supportEmptyParas]--> <!--[endif]--></p>
+    </div>
+    <footer>
+          </footer>
+    <section id="comments">
+  <hr class='dot' style='height:6px'>
+  <div class="fb-comments" data-href="<%= url_for '/' %>%ec%a0%9c-%eb%a7%98%ea%b9%8c%ec%a7%80-%ec%8b%9c%ec%9b%90%ed%95%b4%ec%a1%8c%ec%96%b4%ec%9a%94/" data-width="620px" data-num-posts="10"></div>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=131097673763497";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+</section>  </article>
+    </div><!-- /.main -->
+        <aside class="sidebar span4" role="complementary">
+      <hr class='dot'>
+      		<section class="widget recent-posts-2 widget_recent_entries"><div class="widget-inner">		<h3>최신 글</h3>		<ul>
+					<li>
+				<a href="<%= url_for '/' %>1149/" title="정리도 교육이 필요함을 알았어요">정리도 교육이 필요함을 알았어요</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>%eb%91%90%ea%b7%bc%ea%b1%b0%eb%a6%ac%eb%8a%94-%eb%a7%88%ec%9d%8c%ec%9c%bc%eb%a1%9c-%ec%9e%85%ec%97%88%eb%8d%98-%ec%98%b7%eb%93%a4%ec%9e%85%eb%8b%88%eb%8b%a4/" title="두근거리는 마음으로 입었던 옷들입니다">두근거리는 마음으로 입었던 옷들입니다</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>1115/" title="옷 정리와 함께 돈 벌었어요!">옷 정리와 함께 돈 벌었어요!</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>1098/" title="정리 전엔 늘 같은 옷만 입었어요">정리 전엔 늘 같은 옷만 입었어요</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>%ec%95%9e%ec%9c%bc%eb%a1%9c%eb%8a%94-%ec%a0%95%eb%a6%ac%ed%95%b4%ea%b0%80%eb%a9%b0-%ec%82%b4%ea%b2%a0%eb%8b%a4%eb%8a%94-%eb%8b%a4%ec%a7%90/" title="앞으로는 정리하며 살겠다는 다짐^^">앞으로는 정리하며 살겠다는 다짐^^</a>
+						</li>
+				</ul>
+		</div></section><section class="widget recent-comments-2 widget_recent_comments"><div class="widget-inner"><h3>최신 댓글</h3><ul id="recentcomments"></ul></div></section>    </aside><!-- /.sidebar -->
+      </div><!-- /.content -->
+</div><!-- /.wrap -->

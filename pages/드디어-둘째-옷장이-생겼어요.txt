@@ -1,0 +1,157 @@
+  <style>
+  .story_sub_info {
+  	height: 160px;
+  	background-image: url(/assets/img/story_background.png);
+  	background-repeat: repeat-x;
+  	text-align: center;
+  	padding-top: 40px;
+  }
+  
+  body.single .content a { color:#f8ce08; }
+  body.single .content article .entry-title, body.single article time { color:#f8ce08; }
+  body.single .content article .entry-content { padding:2em 0; }
+  body.single .content article footer { background:none; }
+  body.single .content article .meta { color:#c1c1c1; }
+  body.single .content aside { color:#f8ce08; }
+  body.single .content aside .widget { margin-bottom:2em; }
+  body.single .content aside ul { }
+  body.single .content aside a { color:#000; }
+</style>
+<div class="story_sub_info">
+	<img src="/assets/img/story_info_text.png"/>
+</div>
+
+<div class="wrap container" role="document">
+  <div class="content row">
+
+    <div class="main span8" role="main">
+      <hr class='dot'>
+        <article class="post-216 post type-post status-publish format-standard hentry category-stories">
+    <header>
+      <h1 class="entry-title">드디어, 둘째 아이 옷장이 생겼어요!!</h1>
+      <div class='meta'>
+  Posted 
+  at <time class="updated" datetime="2013-08-27T21:58:25+00:00" pubdate>2013-08-27</time>
+  by <span class="byline author vcard">By <a href="<%= url_for '/' %>author/10001if/" rel="author" class="fn">10001if</a></span>
+</div>
+    </header>
+    <div class="entry-content">
+      <p>자양동 정현창 님 댁을 정리하는 날은 아침부터 정말 뜨거웠어요.</p>
+<p>뜨거운 날씨에도 자양동까지 찾아와 함께 해주신 분들은</p>
+<p>서울시민열린옷장 프로젝트에 뜨거운 관심을 가지고</p>
+<p>취재를 하러 와주신 MBC뉴스투데이 촬영팀 분들입니다.</p>
+<p>자양동 정현창님네 댁은 직접 현장에서 멘트를 해주러 오신</p>
+<p>MBC 박보경 앵커님과 피디님, 작가님, 촬영감독님에</p>
+<p>오늘도 정리에 혼신을 다하기 위해 달려오신 제타랩 분들,</p>
+<p>그리고 열린옷장까지 함께 해 북적북적~</p>
+<p>그 열기가 날씨보다 더 뜨거웠답니다.</p>
+<p>&nbsp;</p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/08/P1040160.jpg" ><img class="alignnone  wp-image-250" alt="P1040160" src="<%= url_for '/' %>wp-content/uploads/2013/08/P1040160.jpg" width="442" height="332" /></a></p>
+<p>&nbsp;</p>
+<p>오늘의 주인공인 정현창 님을 소개하자면, 곧 둘째 출산을 앞둔 만삭의 아기엄마이신데요,</p>
+<p>바로 어제까지 영화진흥위원회를 다니시다 둘째 출산을 위해 휴직하셨다고 해요.</p>
+<p>옷장을 정리하다보니 한 때 영화제를 휩쓸고 다니셨던 화려한 의상들이 많으시더라구요^^</p>
+<p>집안 곳곳에서 남다른 스마트함이 느껴졌는데요,</p>
+<p>아이를 위해 좋은 글들을 직접 써붙여 놓으신것도 인상적이었구요,</p>
+<p>좋은 먹거리를 깐깐하게 골라 드시는 라이프 스타일도 역시 남다르시더라구요.</p>
+<p>&nbsp;</p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/08/P1040168.jpg" ><img class="alignnone  wp-image-265" alt="P1040168" src="<%= url_for '/' %>wp-content/uploads/2013/08/P1040168.jpg" width="442" height="332" /></a></p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/08/P1040158.jpg" ><img class="alignnone  wp-image-264" alt="P1040158" src="<%= url_for '/' %>wp-content/uploads/2013/08/P1040158.jpg" width="442" height="332" /></a></p>
+<p>&nbsp;</p>
+<p>촬영 카메라가 도는 것과 동시에 옷장 정리도 시작되었는데요,</p>
+<p>오늘도 역시 첫번째 순서는 제타랩 김호정 대표님과 정미숙 이사님의</p>
+<p>오늘 정리에 대한 간단한 오리엔테이션과 정리 약정서 작성입니다.</p>
+<p>&nbsp;</p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/08/P1040175.jpg" ><img class="alignnone  wp-image-253" alt="P1040175" src="<%= url_for '/' %>wp-content/uploads/2013/08/P1040175.jpg" width="442" height="332" /></a></p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/08/P1040172.jpg" ><img class="alignnone  wp-image-252" alt="P1040172" src="<%= url_for '/' %>wp-content/uploads/2013/08/P1040172.jpg" width="442" height="332" /></a></p>
+<p>&nbsp;</p>
+<p>그리고 시작된 옷장 정리!</p>
+<p>정현창님은 이번에 옷장정리를 신청하신 이유가 분명하셨어요.</p>
+<p>안 입는 옷들을 정리해서 공간을 비워</p>
+<p>곧 태어날 둘째 아이의 옷장을 만들고 싶다!</p>
+<p>라는 것이었어요.</p>
+<p>&nbsp;</p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/08/P1040199.jpg" ><img class="alignnone  wp-image-257" alt="P1040199" src="<%= url_for '/' %>wp-content/uploads/2013/08/P1040199.jpg" width="553" height="737" /></a></p>
+<p>&nbsp;</p>
+<p>미리 기증할 정장을 분류해놓고 출근하신 정현창님 남편 분 덕에</p>
+<p>옷장 정리는 훨씬 더 빠르게 진행될 수 있었어요.</p>
+<p>정현창님도 처음 직장 다닐 때 입으셨던 정장들을</p>
+<p>과감하게 기증의류로 분류해주셔서 기증박스가 금새 가득해졌어요.</p>
+<p>정장을 정리하시며, 이 옷을 입게 될 후배들에게</p>
+<p>취업이 어려운 사회를 물려줘서 미안하다는 말씀까지 전해주셨어요.</p>
+<p>&nbsp;</p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/08/P1040166.jpg" ><img class="alignnone  wp-image-251" alt="P1040166" src="<%= url_for '/' %>wp-content/uploads/2013/08/P1040166.jpg" width="442" height="332" /></a></p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/08/P1040220.jpg" ><img class="alignnone  wp-image-261" alt="P1040220" src="<%= url_for '/' %>wp-content/uploads/2013/08/P1040220.jpg" width="471" height="626" /></a></p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/08/P1040206.jpg" ><img class="alignnone  wp-image-259" alt="P1040206" src="<%= url_for '/' %>wp-content/uploads/2013/08/P1040206.jpg" width="442" height="332" /></a></p>
+<p>&nbsp;</p>
+<p>이렇게 곱게 복숭아를 깎는 이 남자 분은 누구시냐고요?</p>
+<p>촬영을 하러 오신 MBC 이능희 피디님이시랍니다. ㅎㅎ</p>
+<p>옷장 정리를 하느라 바쁜 손을 도우시겠다고</p>
+<p>피디님은 과일을 깎아주시고 작가님은 설거지를 도와주시고&#8230;</p>
+<p>너무 재밌게 도란도란 이렇게 옷장정리와 촬영이 나란히 진행되었어요.</p>
+<p>&nbsp;</p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/08/P1040205.jpg" ><img class="alignnone  wp-image-256" alt="P1040205" src="<%= url_for '/' %>wp-content/uploads/2013/08/P1040205.jpg" width="442" height="332" /></a></p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/08/P1040204.jpg" ><img class="alignnone  wp-image-258" alt="P1040204" src="<%= url_for '/' %>wp-content/uploads/2013/08/P1040204.jpg" width="442" height="332" /></a></p>
+<p>&nbsp;</p>
+<p>짜자자잔!  옷장 정리가 끝난 감동적인 모습~</p>
+<p>과연, 전문가의 손길이 느껴지시죠?</p>
+<p>정현창 님도 대 만족하셨답니다.</p>
+<p>&nbsp;</p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/08/P1040211.jpg" ><img class="alignnone  wp-image-255" alt="P1040211" src="<%= url_for '/' %>wp-content/uploads/2013/08/P1040211.jpg" width="553" height="737" /></a></p>
+<p>&nbsp;</p>
+<p>정리가 끝난 후 마무리는 아름다운 기증~</p>
+<p>정현창 님은 열린옷장에 한 박스의 정장을, 옷캔에 두 박스의 의류를 기증해주셨습니다.</p>
+<p>물론 열린옷장에서 준비한 노란 감사액자로 작으나마 감사의 마음을 전했습니다.</p>
+<p>책장 한 가운데 놓여진 그대로 가족분들 함께 나눠 보시며</p>
+<p>늘 기증의 행복한 순간을 떠올리시면 좋겠습니다.</p>
+<p>&nbsp;</p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/08/P1040239.jpg" ><img class="alignnone  wp-image-262" alt="P1040239" src="<%= url_for '/' %>wp-content/uploads/2013/08/P1040239.jpg" width="553" height="737" /></a></p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/08/P1040234.jpg" ><img class="alignnone  wp-image-263" alt="P1040234" src="<%= url_for '/' %>wp-content/uploads/2013/08/P1040234.jpg" width="442" height="332" /></a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>오늘 옷장 정리에 참여해주신 모든 분들, 수고많으셨습니다.</p>
+<p>모두모두 감사합니다. 행복한 기증의 추억이 또 하나 쌓였습니다~</p>
+<p>&nbsp;</p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/08/P1040213.jpg" ><img class="alignnone  wp-image-260" alt="P1040213" src="<%= url_for '/' %>wp-content/uploads/2013/08/P1040213.jpg" width="442" height="332" /></a></p>
+<p>&nbsp;</p>
+<p>* 옷장정리 취재 : 열린옷장 김소령</p>
+<p>&nbsp;</p>
+<p><!--[if gte vml 1]><v:shapetype id="_x0000_t75"		coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"		filled="f" stroked="f">		<v:stroke joinstyle="miter"/>		<v:formulas>		<v:f eqn="if lineDrawn pixelLineWidth 0"/>		<v:f eqn="sum @0 1 0"/>		<v:f eqn="sum 0 0 @1"/>		<v:f eqn="prod @2 1 2"/>		<v:f eqn="prod @3 21600 pixelWidth"/>		<v:f eqn="prod @3 21600 pixelHeight"/>		<v:f eqn="sum @0 0 1"/>		<v:f eqn="prod @6 1 2"/>		<v:f eqn="prod @7 21600 pixelWidth"/>		<v:f eqn="sum @8 21600 0"/>		<v:f eqn="prod @7 21600 pixelHeight"/>		<v:f eqn="sum @10 21600 0"/>		</v:formulas>		<v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>		<o:lock v:ext="edit" aspectratio="t"/>	</v:shapetype><v:shape id="_x105264808" style="v-text-anchor:top;width:339.10pt;height:268.60pt;" type="#_x0000_t75"><v:imagedata o:title="EMB0000136c790d" src="file:///C:\Users\소령님\AppData\Local\Temp\Hnc\BinData\EMB0000136c790d.jpg"/><w:wrap type="topAndBottom"/></v:shape><![endif]--> <!--[if !vml]--><!--[endif]--></p>
+    </div>
+    <footer>
+          </footer>
+    <section id="comments">
+  <hr class='dot' style='height:6px'>
+  <div class="fb-comments" data-href="<%= url_for '/' %>%eb%93%9c%eb%94%94%ec%96%b4-%eb%91%98%ec%a7%b8-%ec%98%b7%ec%9e%a5%ec%9d%b4-%ec%83%9d%ea%b2%bc%ec%96%b4%ec%9a%94/" data-width="620px" data-num-posts="10"></div>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=131097673763497";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+</section>  </article>
+    </div><!-- /.main -->
+        <aside class="sidebar span4" role="complementary">
+      <hr class='dot'>
+      		<section class="widget recent-posts-2 widget_recent_entries"><div class="widget-inner">		<h3>최신 글</h3>		<ul>
+					<li>
+				<a href="<%= url_for '/' %>1149/" title="정리도 교육이 필요함을 알았어요">정리도 교육이 필요함을 알았어요</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>%eb%91%90%ea%b7%bc%ea%b1%b0%eb%a6%ac%eb%8a%94-%eb%a7%88%ec%9d%8c%ec%9c%bc%eb%a1%9c-%ec%9e%85%ec%97%88%eb%8d%98-%ec%98%b7%eb%93%a4%ec%9e%85%eb%8b%88%eb%8b%a4/" title="두근거리는 마음으로 입었던 옷들입니다">두근거리는 마음으로 입었던 옷들입니다</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>1115/" title="옷 정리와 함께 돈 벌었어요!">옷 정리와 함께 돈 벌었어요!</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>1098/" title="정리 전엔 늘 같은 옷만 입었어요">정리 전엔 늘 같은 옷만 입었어요</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>%ec%95%9e%ec%9c%bc%eb%a1%9c%eb%8a%94-%ec%a0%95%eb%a6%ac%ed%95%b4%ea%b0%80%eb%a9%b0-%ec%82%b4%ea%b2%a0%eb%8b%a4%eb%8a%94-%eb%8b%a4%ec%a7%90/" title="앞으로는 정리하며 살겠다는 다짐^^">앞으로는 정리하며 살겠다는 다짐^^</a>
+						</li>
+				</ul>
+		</div></section><section class="widget recent-comments-2 widget_recent_comments"><div class="widget-inner"><h3>최신 댓글</h3><ul id="recentcomments"></ul></div></section>    </aside><!-- /.sidebar -->
+      </div><!-- /.content -->
+</div><!-- /.wrap -->

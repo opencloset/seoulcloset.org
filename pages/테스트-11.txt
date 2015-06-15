@@ -1,0 +1,164 @@
+  <style>
+  .story_sub_info {
+  	height: 160px;
+  	background-image: url(/assets/img/story_background.png);
+  	background-repeat: repeat-x;
+  	text-align: center;
+  	padding-top: 40px;
+  }
+  
+  body.single .content a { color:#f8ce08; }
+  body.single .content article .entry-title, body.single article time { color:#f8ce08; }
+  body.single .content article .entry-content { padding:2em 0; }
+  body.single .content article footer { background:none; }
+  body.single .content article .meta { color:#c1c1c1; }
+  body.single .content aside { color:#f8ce08; }
+  body.single .content aside .widget { margin-bottom:2em; }
+  body.single .content aside ul { }
+  body.single .content aside a { color:#000; }
+</style>
+<div class="story_sub_info">
+	<img src="/assets/img/story_info_text.png"/>
+</div>
+
+<div class="wrap container" role="document">
+  <div class="content row">
+
+    <div class="main span8" role="main">
+      <hr class='dot'>
+        <article class="post-60 post type-post status-publish format-standard hentry category-stories">
+    <header>
+      <h1 class="entry-title">첫 직장다닐 때 정장,기증했어요!</h1>
+      <div class='meta'>
+  Posted 
+  at <time class="updated" datetime="2013-07-01T15:01:31+00:00" pubdate>2013-07-01</time>
+  by <span class="byline author vcard">By <a href="<%= url_for '/' %>author/rest515/" rel="author" class="fn">rest515</a></span>
+</div>
+    </header>
+    <div class="entry-content">
+      <p><strong>1. 신청한 계기가 어떻게 되세요?</strong></p>
+<p>옷들을 항상 치워야겠다고 생각을 했는데 안치워도 살만하니까 그냥 두다 기회가 되어서<br />
+인터넷에 나오더라구요.<br />
+서울시 공유프로젝트에 여러가지가 있는것을 보았는데 그중 하나<br />
+옷장정리가 있어서.. 정장기부도 하고 그런것을 보았습니다.<br />
+정리 하는거 생각은 항상 있었는데 그래서 신청을 하게 되었었어요.</p>
+<p>&nbsp;</p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/07/MG_5951.jpg" ><img alt="_MG_5951" src="<%= url_for '/' %>wp-content/uploads/2013/07/MG_5951.jpg" width="630" height="420" /></a></p>
+<p>&nbsp;</p>
+<p><strong>2. 좋은 취지인데도 막상 신청을 하려고 하면 고민을 하게되는데</strong></p>
+<p><strong></strong><strong>낯선사람이 집에오고 본인의 물건을 만지니까 .. 그런 것에 대한부담감은 없으셨나요?</strong></p>
+<p>부담감보다는 집이 어지러우니까 부끄러웠어요.<br />
+신청 하고서는 별 생각이 없었는데 전날부터 아 이거 청소를 해야하나..<br />
+하면서 고민도 되고요. 신청을 할때는 젊은 친구들이 올거라고 생각했었어요.</p>
+<p>&nbsp;</p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/07/MG_5970.jpg" ><img alt="_MG_5970" src="<%= url_for '/' %>wp-content/uploads/2013/07/MG_5970.jpg" width="667" height="1000" /></a></p>
+<p>&nbsp;</p>
+<p><strong>3. 이런 옷장정리나 사회적 기업에 대한 프로젝트에 대한 인식은 어떠셨나요?</strong></p>
+<p>괜찮다고 생각했어요. 저는 옷뿐만 아니라 여러가지도 할수 있을 것 같아요.<br />
+물품 같은 것이나 그릇, 냄비같은 것도요. 농이나 가구 같은건 부피가 커서 좀 어려울것 같네요 (웃음).</p>
+<p>&nbsp;</p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/07/MG_5984.jpg" ><img alt="_MG_5984" src="<%= url_for '/' %>wp-content/uploads/2013/07/MG_5984.jpg" width="667" height="1000" /></a></p>
+<p>&nbsp;</p>
+<p><strong>4. 옷이 많이 줄으셨죠? 어느정도 줄어들었죠?</strong></p>
+<p>1/3정도 정리를 했어요.</p>
+<p>&nbsp;</p>
+<p><strong>5. 이렇게 많이 정리를 하셨는데 그동안 못버린 이유가 있을까요?</strong></p>
+<p>귀찮아서 그랬죠..<br />
+그리고 원래 버리는건 남이 버려줘야 되요. 자기가 자기것은 워낙 잘 못버리니까요.<br />
+두면 또 입을것 같기도 하고 아깝다기보다 추억이 있는 옷이 있으니까,<br />
+주변 사람들이 사준 옷도 있고 이옷을 내가 사러갔을때 있던 기억도 있고 그런 추억거리가 있죠.</p>
+<p>&nbsp;</p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/07/MG_5983.jpg" ><img alt="_MG_5983" src="<%= url_for '/' %>wp-content/uploads/2013/07/MG_5983.jpg" width="667" height="1000" /></a></p>
+<p>&nbsp;</p>
+<p><strong>6. 그런 옷도 다 정리를 하신건가요?</strong></p>
+<p>정장은 특히 요새 옛날에 비해서 잘 안입으니까, 캐쥬얼로 많이 입거든요.<br />
+그래서 위아래 10벌정도 정리를 했어요. 바지가 더 많네요.</p>
+<p>&nbsp;</p>
+<p><strong>7. 옷장 정리후 느끼신 점</strong></p>
+<p>역시 치우고 살아야 된다!<br />
+내가 버리려고 했으면 한참 고민을 했을텐데 과감하게 버려주시니까 좋아요.</p>
+<p>&nbsp;</p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/07/MG_6028.jpg" ><img alt="_MG_6028" src="<%= url_for '/' %>wp-content/uploads/2013/07/MG_6028.jpg" width="600" height="900" /></a></p>
+<p>&nbsp;</p>
+<p><strong>8. 카메라 가방이 저랑 비슷한거 가지고 계시네요 (웃음) </strong></p>
+<p>어 정말 그러네요. 제거랑 색깔이 좀 다른거같은데.. 2-3년전에 샀거든요. 후속모델인가?<br />
+이것도 사진을 찍어야 하나요?<br />
+이게 사진찍는 사람들이 쓰는 가방이죠 (웃음)<br />
+사실 저도 고등학교때 사진부였어서 사진공부를 하고 싶었는데 집에서 반대를 했었거든요.</p>
+<p>&nbsp;</p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/07/MG_5952.jpg" ><img alt="_MG_5952" src="<%= url_for '/' %>wp-content/uploads/2013/07/MG_5952.jpg" width="640" height="427" /></a></p>
+<p>&nbsp;</p>
+<p><strong>9. 사실 제가 사진전공하고 있어요. 그렇게 안보이죠?</strong></p>
+<p>네&#8230; 뭐&#8230; 좀 그러네요 (웃음)</p>
+<p>&nbsp;</p>
+<p><strong>10. 직장생활 하신지 오래되셨나요?</strong></p>
+<p>전 직장까지 포함하면 7년정도요. 이곳으로 이사온지는 1년정도 되었는데<br />
+그전에 이사올때 여기가 좁으니까 많이 정리를 했는데 그때는 방이 2개였거든요.<br />
+그때 많이 줄었는데도 지내다보니까 또 사게되어서 많아지게 되었네요.</p>
+<p>&nbsp;</p>
+<p><strong>11. 원래 고향이 어디세요?</strong></p>
+<p>부산이요. 대학을 서울로 오게되서 올라오게 되었어요.</p>
+<p>첫직장 생활 하면서 입었던 정장도 기부를 하게 되서 저기 박스에 들어가 있는데..<br />
+그게 고등학교 졸업때 입었던가? 대학때였나&#8230; 아. 대학교 졸업식때 입었네요.<br />
+이게 그때도 입었던 옷이에요.</p>
+<p>&nbsp;</p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/07/MG_6006.jpg" ><img alt="_MG_6006" src="<%= url_for '/' %>wp-content/uploads/2013/07/MG_6006.jpg" width="667" height="1000" /></a></p>
+<p>&nbsp;</p>
+<p><strong>12. 옷중에 이것만은 못버리겠다 하는 옷이나 추억이 많은 옷이 있나요?</strong></p>
+<p>딱히 못버리겠다 하는 옷은 없는것 같아요<br />
+군복같은 경우에는 군생활을 하면서 매일 다리고 고생했던 기억이 있어서 그런가<br />
+버리기가 그렇더라구요.</p>
+<p>&nbsp;</p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/07/MG_6008.jpg" ><img alt="_MG_6008" src="<%= url_for '/' %>wp-content/uploads/2013/07/MG_6008.jpg" width="667" height="1000" /></a></p>
+<p>&nbsp;</p>
+<p><strong>13. 다른사람들이 입게되는 옷, 입게되는 사람에게 하고싶은 말</strong></p>
+<p>유행이 지난 잘 안입는 옷인데 그런옷이라 미안한 마음이 있죠 저는 버리는거니까.<br />
+그분들도 사정이 있으니까요, 여유롭지 않다거나..<br />
+그거입고 면접을 보러 간다던지 해서 그곳에서 잘 되었으면 좋겠어요<br />
+저도 그옷을 입고 잘 됐었으니까 그런 기운을 잘 가져가셨으면 좋겠어요.</p>
+<p>&nbsp;</p>
+<p><img alt="_MG_6051-2" src="<%= url_for '/' %>wp-content/uploads/2013/07/MG_6051-2.jpg" width="640" height="411" /></p>
+<p>&nbsp;</p>
+<p><strong>14. 마지막으로 하고싶으신 말은?</strong></p>
+<p>많은 사람들이 이렇게 정리도 하고 나눠도 주고하는 일에 신청을 했으면 좋겠습니다.</p>
+<p>&nbsp;</p>
+<p># 옷장정리 현장 취재 : 남궁솔</p>
+<p>&nbsp;</p>
+    </div>
+    <footer>
+          </footer>
+    <section id="comments">
+  <hr class='dot' style='height:6px'>
+  <div class="fb-comments" data-href="<%= url_for '/' %>%ed%85%8c%ec%8a%a4%ed%8a%b8-11/" data-width="620px" data-num-posts="10"></div>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=131097673763497";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+</section>  </article>
+    </div><!-- /.main -->
+        <aside class="sidebar span4" role="complementary">
+      <hr class='dot'>
+      		<section class="widget recent-posts-2 widget_recent_entries"><div class="widget-inner">		<h3>최신 글</h3>		<ul>
+					<li>
+				<a href="<%= url_for '/' %>1149/" title="정리도 교육이 필요함을 알았어요">정리도 교육이 필요함을 알았어요</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>%eb%91%90%ea%b7%bc%ea%b1%b0%eb%a6%ac%eb%8a%94-%eb%a7%88%ec%9d%8c%ec%9c%bc%eb%a1%9c-%ec%9e%85%ec%97%88%eb%8d%98-%ec%98%b7%eb%93%a4%ec%9e%85%eb%8b%88%eb%8b%a4/" title="두근거리는 마음으로 입었던 옷들입니다">두근거리는 마음으로 입었던 옷들입니다</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>1115/" title="옷 정리와 함께 돈 벌었어요!">옷 정리와 함께 돈 벌었어요!</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>1098/" title="정리 전엔 늘 같은 옷만 입었어요">정리 전엔 늘 같은 옷만 입었어요</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>%ec%95%9e%ec%9c%bc%eb%a1%9c%eb%8a%94-%ec%a0%95%eb%a6%ac%ed%95%b4%ea%b0%80%eb%a9%b0-%ec%82%b4%ea%b2%a0%eb%8b%a4%eb%8a%94-%eb%8b%a4%ec%a7%90/" title="앞으로는 정리하며 살겠다는 다짐^^">앞으로는 정리하며 살겠다는 다짐^^</a>
+						</li>
+				</ul>
+		</div></section><section class="widget recent-comments-2 widget_recent_comments"><div class="widget-inner"><h3>최신 댓글</h3><ul id="recentcomments"></ul></div></section>    </aside><!-- /.sidebar -->
+      </div><!-- /.content -->
+</div><!-- /.wrap -->

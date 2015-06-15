@@ -1,0 +1,97 @@
+  <style>
+  .story_sub_info {
+  	height: 160px;
+  	background-image: url(/assets/img/story_background.png);
+  	background-repeat: repeat-x;
+  	text-align: center;
+  	padding-top: 40px;
+  }
+  
+  body.single .content a { color:#f8ce08; }
+  body.single .content article .entry-title, body.single article time { color:#f8ce08; }
+  body.single .content article .entry-content { padding:2em 0; }
+  body.single .content article footer { background:none; }
+  body.single .content article .meta { color:#c1c1c1; }
+  body.single .content aside { color:#f8ce08; }
+  body.single .content aside .widget { margin-bottom:2em; }
+  body.single .content aside ul { }
+  body.single .content aside a { color:#000; }
+</style>
+<div class="story_sub_info">
+	<img src="/assets/img/story_info_text.png"/>
+</div>
+
+<div class="wrap container" role="document">
+  <div class="content row">
+
+    <div class="main span8" role="main">
+      <hr class='dot'>
+        <article class="post-1095 post type-post status-publish format-standard hentry category-stories">
+    <header>
+      <h1 class="entry-title">앞으로는 정리하며 살겠다는 다짐^^</h1>
+      <div class='meta'>
+  Posted 
+  at <time class="updated" datetime="2013-12-11T14:25:18+00:00" pubdate>2013-12-11</time>
+  by <span class="byline author vcard">By <a href="<%= url_for '/' %>author/10001if/" rel="author" class="fn">10001if</a></span>
+</div>
+    </header>
+    <div class="entry-content">
+      <p>Q. 옷장 정리를 신청하시게 된 계기는?</p>
+<p>친구가 TV를 보고 서울시에서 옷장 정리를  해주고</p>
+<p>구직자를 위해 양장, 양복을 가져간다 하여</p>
+<p>옷장 정리도 할겸 동생 양복도 구직자를 줄 목적으로 신청했습니다.</p>
+<p>&nbsp;</p>
+<p>Q. 정리 전문가들과 함께 옷장정리를 해보신 소감은?</p>
+<p> 옷장 공간이 넓어져 기분이 좋고 앞으로는 정리해가며 살겠다고 다짐해봅니다.</p>
+<p>&nbsp;</p>
+<p>Q. 기증하시는 옷들은 어떤 이야기를 품고 있나요?</p>
+<p> 입사했을 때 입었던 자켓이고, 양복은 동생 것인데 사이즈가 적어 기증하지만</p>
+<p>누군가가 귀하게 입게 될 것을 생가하니 뿌듯합니다.</p>
+<p>&nbsp;</p>
+<p>Q. 기증해주신 옷을 입고 입사면접을 보게 될 구직자들을 응원해주신다면?</p>
+<p>꼭 합격하셔서 행복한 직장인이 되어</p>
+<p>더 많은 것으로 나눌 수 있도록 축복합니다.</p>
+<p>&nbsp;</p>
+<p>Q. 주변 지인들 중 권유하고 싶은 분이 있으신가요?</p>
+<p>엄마께서 동네분께 권유하여 그 분도 신청했습니다.</p>
+<p>&nbsp;</p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/11/서울옷장-캐릭로고.jpg" ><img class="alignnone size-medium wp-image-829" alt="서울옷장 캐릭로고" src="<%= url_for '/' %>wp-content/uploads/2013/11/서울옷장-캐릭로고-300x231.jpg" width="300" height="231" /></a></p>
+<p>&nbsp;</p>
+    </div>
+    <footer>
+          </footer>
+    <section id="comments">
+  <hr class='dot' style='height:6px'>
+  <div class="fb-comments" data-href="<%= url_for '/' %>%ec%95%9e%ec%9c%bc%eb%a1%9c%eb%8a%94-%ec%a0%95%eb%a6%ac%ed%95%b4%ea%b0%80%eb%a9%b0-%ec%82%b4%ea%b2%a0%eb%8b%a4%eb%8a%94-%eb%8b%a4%ec%a7%90/" data-width="620px" data-num-posts="10"></div>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=131097673763497";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+</section>  </article>
+    </div><!-- /.main -->
+        <aside class="sidebar span4" role="complementary">
+      <hr class='dot'>
+      		<section class="widget recent-posts-2 widget_recent_entries"><div class="widget-inner">		<h3>최신 글</h3>		<ul>
+					<li>
+				<a href="<%= url_for '/' %>1149/" title="정리도 교육이 필요함을 알았어요">정리도 교육이 필요함을 알았어요</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>%eb%91%90%ea%b7%bc%ea%b1%b0%eb%a6%ac%eb%8a%94-%eb%a7%88%ec%9d%8c%ec%9c%bc%eb%a1%9c-%ec%9e%85%ec%97%88%eb%8d%98-%ec%98%b7%eb%93%a4%ec%9e%85%eb%8b%88%eb%8b%a4/" title="두근거리는 마음으로 입었던 옷들입니다">두근거리는 마음으로 입었던 옷들입니다</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>1115/" title="옷 정리와 함께 돈 벌었어요!">옷 정리와 함께 돈 벌었어요!</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>1098/" title="정리 전엔 늘 같은 옷만 입었어요">정리 전엔 늘 같은 옷만 입었어요</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>%ec%95%9e%ec%9c%bc%eb%a1%9c%eb%8a%94-%ec%a0%95%eb%a6%ac%ed%95%b4%ea%b0%80%eb%a9%b0-%ec%82%b4%ea%b2%a0%eb%8b%a4%eb%8a%94-%eb%8b%a4%ec%a7%90/" title="앞으로는 정리하며 살겠다는 다짐^^">앞으로는 정리하며 살겠다는 다짐^^</a>
+						</li>
+				</ul>
+		</div></section><section class="widget recent-comments-2 widget_recent_comments"><div class="widget-inner"><h3>최신 댓글</h3><ul id="recentcomments"></ul></div></section>    </aside><!-- /.sidebar -->
+      </div><!-- /.content -->
+</div><!-- /.wrap -->

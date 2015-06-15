@@ -1,0 +1,128 @@
+  <style>
+  .story_sub_info {
+  	height: 160px;
+  	background-image: url(/assets/img/story_background.png);
+  	background-repeat: repeat-x;
+  	text-align: center;
+  	padding-top: 40px;
+  }
+  
+  body.single .content a { color:#f8ce08; }
+  body.single .content article .entry-title, body.single article time { color:#f8ce08; }
+  body.single .content article .entry-content { padding:2em 0; }
+  body.single .content article footer { background:none; }
+  body.single .content article .meta { color:#c1c1c1; }
+  body.single .content aside { color:#f8ce08; }
+  body.single .content aside .widget { margin-bottom:2em; }
+  body.single .content aside ul { }
+  body.single .content aside a { color:#000; }
+</style>
+<div class="story_sub_info">
+	<img src="/assets/img/story_info_text.png"/>
+</div>
+
+<div class="wrap container" role="document">
+  <div class="content row">
+
+    <div class="main span8" role="main">
+      <hr class='dot'>
+        <article class="post-48 post type-post status-publish format-standard hentry category-stories">
+    <header>
+      <h1 class="entry-title">좋은 일에 쓰인다니까 더 좋아요!</h1>
+      <div class='meta'>
+  Posted 
+  at <time class="updated" datetime="2013-07-01T14:35:01+00:00" pubdate>2013-07-01</time>
+  by <span class="byline author vcard">By <a href="<%= url_for '/' %>author/rest515/" rel="author" class="fn">rest515</a></span>
+</div>
+    </header>
+    <div class="entry-content">
+      <p>서울시에서 옷장정리를 해준다는 소식을 접하고, 얼마나 환호했는지 몰라요~^^</p>
+<p>계속 옷장을 볼때마다 한숨만 나왔는데, 이런 서비스가 있다는 자체만으로도</p>
+<p>벌써 흥분되고 설레고 신청하는 맘이 떨리기까지 한답니다~~</p>
+<p>우선 제 소개를 할께요~</p>
+<p>전 39살에 서툰 첫 육아를 하고 있는 초보엄마입니다~</p>
+<p>아이를 오래 기다려 어렵고 더 소중하게 만나서,</p>
+<p>지금은 힘들어도 매일 아기를 보면서 감사하는 하루하루기도 해요~</p>
+<p>&nbsp;</p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/07/mms_img289682744.jpg" ><img class="alignnone size-full wp-image-314" alt="mms_img289682744" src="<%= url_for '/' %>wp-content/uploads/2013/07/mms_img289682744.jpg" width="640" height="480" /></a></p>
+<p>&nbsp;</p>
+<p>그런데 아이가 생기면서, 늘 껌딱지 아이와 함께 있다보니</p>
+<p>오히려 집 청소할 시간조차 내기가 쉽지 않았어요~</p>
+<p>옷에 대한 미련으로 쉽게 버리지 못하는 성격 탓에, 결혼 때도 옷을 옷장 한 가득 가져온데다,</p>
+<p>신랑의 안 입는 정장까지 차마 버리지 못하고 꼭꼭 쌓아두고 있어서,</p>
+<p>이젠 옷장은 거의 못 입는 옷들만 모인듯 해요~~</p>
+<p>결국 저희 가족이 입는 옷들은 행거에 걸어두는데, 이젠 행거마저도 위태위태 하거든요~</p>
+<p>&nbsp;</p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/07/mms_img325032026.jpg" ><img class="alignnone size-full wp-image-315" alt="mms_img325032026" src="<%= url_for '/' %>wp-content/uploads/2013/07/mms_img325032026.jpg" width="640" height="480" /></a></p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/07/mms_img1002082821.jpg" ><img class="alignnone size-full wp-image-318" alt="mms_img1002082821" src="<%= url_for '/' %>wp-content/uploads/2013/07/mms_img1002082821.jpg" width="640" height="480" /></a></p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/07/mms_img1150566892.jpg" ><img class="alignnone size-full wp-image-319" alt="mms_img1150566892" src="<%= url_for '/' %>wp-content/uploads/2013/07/mms_img1150566892.jpg" width="640" height="480" /></a></p>
+<p>&nbsp;</p>
+<p>결혼 5년 생활 동안 한번도 옷을 버리지 못한 상태라,</p>
+<p>아마 옷을 정리하게 되면 기증할 옷들이 더 많을 듯 합니다~~</p>
+<p>출산 후 살이 많이 쪄서 예전 옷들은 전혀 입지 못하거든요~</p>
+<p>무엇보다 깨끗한 옷장에 저희 아기 옷들을 정리하고 싶은데,</p>
+<p>이젠 너무나 쌓여버린 옷때문에 엄두조차 나지 않고 있었어요~</p>
+<p>껌딱지 12개월 아기와 하루종일 씨름하다 보면,</p>
+<p>옷장 정리는 늘 마음속의 큰 근심이고 짐이더라구요~</p>
+<p>&nbsp;</p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/07/mms_img-1606988127.jpg" ><img class="alignnone size-full wp-image-321" alt="mms_img-1606988127" src="<%= url_for '/' %>wp-content/uploads/2013/07/mms_img-1606988127.jpg" width="640" height="480" /></a></p>
+<p>&nbsp;</p>
+<p>그런데 저희가 이번 10월에 드디어 이사를 한답니다~</p>
+<p>저희 아기가 있기에는 집이 넘 좁아서 힘들게 결심을 했어요~~</p>
+<p>집이 좁아진 원인으로는 옷들이 가장 크지만요~</p>
+<p>이사 하기 전에 가장 시급한 일이 옷부터 정리하는 일인데,</p>
+<p>저와 신랑은 사실 엄두조차 못 내고 있어 절실한 도움이 필요해서 신청했어요.</p>
+<p>이번에 정리 전문가분들께 니트를 정리하는 법이라든지,</p>
+<p>속옷 정리법이라든지 그동안 몰랐던 방법을 배워서 앞으로 큰 도움이 될 것 같습니다.</p>
+<p>&nbsp;</p>
+<p>이번에 정리하고나서 기증하는 정장은, 신랑이 결혼하기 전 면접볼 때 입었던 옷인데</p>
+<p>저희 상견례 때도 입었던 옷이에요.</p>
+<p>부디 이 옷을 입게 될 청년구직자분들도 힘내셔서 좋은 일들만 가득했으면 좋겠습니다.</p>
+<p>&nbsp;</p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/07/mms_img1651879385.jpg" ><img class="alignnone size-full wp-image-322" alt="mms_img1651879385" src="<%= url_for '/' %>wp-content/uploads/2013/07/mms_img1651879385.jpg" width="640" height="480" /></a></p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/07/mms_img1715085474.jpg" ><img class="alignnone size-full wp-image-323" alt="mms_img1715085474" src="<%= url_for '/' %>wp-content/uploads/2013/07/mms_img1715085474.jpg" width="640" height="480" /></a></p>
+<p>&nbsp;</p>
+<p>이렇게 멋진 사연까지 주신 서은미 주부님!</p>
+<p>옷장 정리 후 기증해주신 정장들은 꼭 필요하신 분들을 위해 소중하게 쓰겠습니다.</p>
+<p>서울시민열린옷장에 함께 해주셔서 감사합니다~~</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+    </div>
+    <footer>
+          </footer>
+    <section id="comments">
+  <hr class='dot' style='height:6px'>
+  <div class="fb-comments" data-href="<%= url_for '/' %>%ed%85%8c%ec%8a%a4%ed%8a%b8-5/" data-width="620px" data-num-posts="10"></div>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=131097673763497";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+</section>  </article>
+    </div><!-- /.main -->
+        <aside class="sidebar span4" role="complementary">
+      <hr class='dot'>
+      		<section class="widget recent-posts-2 widget_recent_entries"><div class="widget-inner">		<h3>최신 글</h3>		<ul>
+					<li>
+				<a href="<%= url_for '/' %>1149/" title="정리도 교육이 필요함을 알았어요">정리도 교육이 필요함을 알았어요</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>%eb%91%90%ea%b7%bc%ea%b1%b0%eb%a6%ac%eb%8a%94-%eb%a7%88%ec%9d%8c%ec%9c%bc%eb%a1%9c-%ec%9e%85%ec%97%88%eb%8d%98-%ec%98%b7%eb%93%a4%ec%9e%85%eb%8b%88%eb%8b%a4/" title="두근거리는 마음으로 입었던 옷들입니다">두근거리는 마음으로 입었던 옷들입니다</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>1115/" title="옷 정리와 함께 돈 벌었어요!">옷 정리와 함께 돈 벌었어요!</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>1098/" title="정리 전엔 늘 같은 옷만 입었어요">정리 전엔 늘 같은 옷만 입었어요</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>%ec%95%9e%ec%9c%bc%eb%a1%9c%eb%8a%94-%ec%a0%95%eb%a6%ac%ed%95%b4%ea%b0%80%eb%a9%b0-%ec%82%b4%ea%b2%a0%eb%8b%a4%eb%8a%94-%eb%8b%a4%ec%a7%90/" title="앞으로는 정리하며 살겠다는 다짐^^">앞으로는 정리하며 살겠다는 다짐^^</a>
+						</li>
+				</ul>
+		</div></section><section class="widget recent-comments-2 widget_recent_comments"><div class="widget-inner"><h3>최신 댓글</h3><ul id="recentcomments"></ul></div></section>    </aside><!-- /.sidebar -->
+      </div><!-- /.content -->
+</div><!-- /.wrap -->

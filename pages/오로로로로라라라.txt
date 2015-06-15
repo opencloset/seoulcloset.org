@@ -1,0 +1,106 @@
+  <style>
+  .story_sub_info {
+  	height: 160px;
+  	background-image: url(/assets/img/story_background.png);
+  	background-repeat: repeat-x;
+  	text-align: center;
+  	padding-top: 40px;
+  }
+  
+  body.single .content a { color:#f8ce08; }
+  body.single .content article .entry-title, body.single article time { color:#f8ce08; }
+  body.single .content article .entry-content { padding:2em 0; }
+  body.single .content article footer { background:none; }
+  body.single .content article .meta { color:#c1c1c1; }
+  body.single .content aside { color:#f8ce08; }
+  body.single .content aside .widget { margin-bottom:2em; }
+  body.single .content aside ul { }
+  body.single .content aside a { color:#000; }
+</style>
+<div class="story_sub_info">
+	<img src="/assets/img/story_info_text.png"/>
+</div>
+
+<div class="wrap container" role="document">
+  <div class="content row">
+
+    <div class="main span8" role="main">
+      <hr class='dot'>
+        <article class="post-70 post type-post status-publish format-standard hentry category-stories">
+    <header>
+      <h1 class="entry-title">제1호 옷장정리 이야기</h1>
+      <div class='meta'>
+  Posted 
+  at <time class="updated" datetime="2013-07-01T15:50:16+00:00" pubdate>2013-07-01</time>
+  by <span class="byline author vcard">By <a href="<%= url_for '/' %>author/rest515/" rel="author" class="fn">rest515</a></span>
+</div>
+    </header>
+    <div class="entry-content">
+      <p><strong><span style="font-size: x-large;">&#8220;옷장정리 해주신다고 하니까 </span></strong></p>
+<p><strong>이따 친구가 구경 오기로 했어요ㅎㅎ” </strong></p>
+<p><strong> </strong></p>
+<p><strong>6월 24일, 제 1호로 옷장 정리를 경험하신 김하나 님의 이야기!</strong></p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/07/MG_5519-2.jpg" ><img class="alignnone size-full wp-image-127" alt="_MG_5519-2" src="<%= url_for '/' %>wp-content/uploads/2013/07/MG_5519-2.jpg" width="533" height="800" /></a></p>
+<p>&nbsp;</p>
+<p><strong>1. 신청한 계기는 어떻게 되나요?</strong></p>
+<p>신청은 여동생이 했어요. 신청할 때 사연에 썼듯이 원래는 어머니가 직장생활을 오래하셔서 집이 너무 복잡하고 묵혀둔 옷이 많아 신청해 드린거였어요. 그런데 어머니가 일하시니까 평일에 시간 내기도 힘드시고 해서 어머니랑 많이 닮은 제가 대신 하게 됐네요 (웃음). 어머니가 그렇게 옷을 쌓아두시는데 저도 딸이라 닮아서 그런가 비슷하거든요. 모녀지간에 이런건 또 다 똑같은가 봐요.</p>
+<p>&nbsp;</p>
+<p><strong>2. 알게 되신 계기는요?</strong></p>
+<p>동생이 페이스북에서 보고 신청했다고 하더라구요. 열린 옷장은 TV에서 몇 번 본적이 있었어요.</p>
+<p>&nbsp;</p>
+<p><strong>3. 신청하시기 전 옷장정리, 기부 프로젝트에 대해 어떻게 생각하셨나요?</strong></p>
+<p>이렇게 제가 하게 되면서 알아보니까 사회적 기업이라는 것을 알게 되었어요. 처음에는 생소하기도 했는데 사실 옷장정리 하는 것을 따로 찾아본 적도 있었는데 꽤 비싸더라구요. 그런데 입지 않는 옷이 또 좋은 곳에 쓰이고 하니까 참 좋은 일 하시는구나 하는 생각이 들었어요.</p>
+<p>&nbsp;</p>
+<p><strong>4. 내 품을 떠난 옷을 입는 사람에게 하고 싶으신 말이나 생각은?</strong></p>
+<p>제가 입지 않는 옷이 또 누가 입고 하는건 좋은데 낡고 아무래도 입던 옷이라.. 물론 깨끗하게 다 빨아놓긴 했지만 새 옷이 아니라 좀 죄송한 기분이 들기도 해요. 그래도 잘 입어주셨으면 좋겠어요.</p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/07/MG_5508.jpg" ><img class="alignnone size-full wp-image-128" alt="_MG_5508" src="<%= url_for '/' %>wp-content/uploads/2013/07/MG_5508.jpg" width="533" height="800" /></a></p>
+<p><strong>5. 옷이 꽤나 많으셨고 실제로 기부하시는 옷이 세 박스나 나왔는데 그동안 정리하기 힘들었던 옷이 많으셨던 이유가 있을까요?</strong></p>
+<p>아무래도 옷에 추억이 있고, 살 때 생각도 나고 하다보니까 버리기가 어려웠어요. 저는 버리고 싶은데 시어머니께서 주신 옷도 있어서 남편이 버리지 못하게 하는 것도 있구요. 딸아이가 둘이다보니 큰 아이 옷을 물려주려고 두니까 계속 쌓이게 되는 것 같아요. 그리고 예전에 비해서 살이 찌다보니까 다시 빠지면 입으려고 놔둔 것도 많았고, 놔두면 또 언젠가는 입겠지 싶어서 놔둔 낡은 옷도 많았는데 정리 하시면서 말씀해주시고 하니까 결국엔 다 버릴 것을덕분에 이렇게 마음먹고 정리를 많이 하게 되었네요 (웃음). 저도 이렇게 많이 나올 줄은 몰랐는데 바쁘고 하다보니까 정리가 더 힘들었던 것 같아요.</p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/07/MG_5510.jpg" ><img class="alignnone size-full wp-image-130" alt="_MG_5510" src="<%= url_for '/' %>wp-content/uploads/2013/07/MG_5510.jpg" width="800" height="533" /></a></p>
+<p>&nbsp;</p>
+<p><strong>6. 어떤 점이 도움이 되었나요?</strong></p>
+<p>정리 해주시는 방법이나 공간을 만드는 방법들을 알려주셔서 정말 많은 도움이 되었어요. 몰랐던 것도 많이 알게 되었고 그렇게 해주신 대로 해야겠다는 생각도 하고 배운다는 생각이 들었어요. 옷장 말고 집 다른 곳도 다 해주셨으면 좋겠어요. 이렇게 옷장정리 해주신다고 하니까 이따 친구가 구경 오기로 했어요 (웃음). 이런 것이 있다 하고 주변에 많이 말하려구요.</p>
+<p>&nbsp;</p>
+<p><strong>7. 옷장정리 후 느끼신 점이 있나요?</strong></p>
+<p>이렇게 잘 해주셔서 정말 감사해요. 그리고 평소에는 기부라고 생각하면 금전적인 여유가 있어야만 하는 것이라고 생각해서 잘 안하게 됐었는데 옷은 또 이렇게 좋은 곳에 기부를 하게 되니까 앞으로도 종종 하고 싶어요.</p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/07/MG_5503.jpg" ><img class="alignnone size-full wp-image-126" alt="_MG_5503" src="<%= url_for '/' %>wp-content/uploads/2013/07/MG_5503.jpg" width="800" height="533" /></a></p>
+<p>&nbsp;</p>
+<p><strong>* 옷장정리 취재 &#8211; 남궁솔 </strong></p>
+    </div>
+    <footer>
+          </footer>
+    <section id="comments">
+  <hr class='dot' style='height:6px'>
+  <div class="fb-comments" data-href="<%= url_for '/' %>%ec%98%a4%eb%a1%9c%eb%a1%9c%eb%a1%9c%eb%a1%9c%eb%9d%bc%eb%9d%bc%eb%9d%bc/" data-width="620px" data-num-posts="10"></div>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=131097673763497";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+</section>  </article>
+    </div><!-- /.main -->
+        <aside class="sidebar span4" role="complementary">
+      <hr class='dot'>
+      		<section class="widget recent-posts-2 widget_recent_entries"><div class="widget-inner">		<h3>최신 글</h3>		<ul>
+					<li>
+				<a href="<%= url_for '/' %>1149/" title="정리도 교육이 필요함을 알았어요">정리도 교육이 필요함을 알았어요</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>%eb%91%90%ea%b7%bc%ea%b1%b0%eb%a6%ac%eb%8a%94-%eb%a7%88%ec%9d%8c%ec%9c%bc%eb%a1%9c-%ec%9e%85%ec%97%88%eb%8d%98-%ec%98%b7%eb%93%a4%ec%9e%85%eb%8b%88%eb%8b%a4/" title="두근거리는 마음으로 입었던 옷들입니다">두근거리는 마음으로 입었던 옷들입니다</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>1115/" title="옷 정리와 함께 돈 벌었어요!">옷 정리와 함께 돈 벌었어요!</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>1098/" title="정리 전엔 늘 같은 옷만 입었어요">정리 전엔 늘 같은 옷만 입었어요</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>%ec%95%9e%ec%9c%bc%eb%a1%9c%eb%8a%94-%ec%a0%95%eb%a6%ac%ed%95%b4%ea%b0%80%eb%a9%b0-%ec%82%b4%ea%b2%a0%eb%8b%a4%eb%8a%94-%eb%8b%a4%ec%a7%90/" title="앞으로는 정리하며 살겠다는 다짐^^">앞으로는 정리하며 살겠다는 다짐^^</a>
+						</li>
+				</ul>
+		</div></section><section class="widget recent-comments-2 widget_recent_comments"><div class="widget-inner"><h3>최신 댓글</h3><ul id="recentcomments"></ul></div></section>    </aside><!-- /.sidebar -->
+      </div><!-- /.content -->
+</div><!-- /.wrap -->

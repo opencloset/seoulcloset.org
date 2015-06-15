@@ -1,0 +1,96 @@
+  <style>
+  .story_sub_info {
+  	height: 160px;
+  	background-image: url(/assets/img/story_background.png);
+  	background-repeat: repeat-x;
+  	text-align: center;
+  	padding-top: 40px;
+  }
+  
+  body.single .content a { color:#f8ce08; }
+  body.single .content article .entry-title, body.single article time { color:#f8ce08; }
+  body.single .content article .entry-content { padding:2em 0; }
+  body.single .content article footer { background:none; }
+  body.single .content article .meta { color:#c1c1c1; }
+  body.single .content aside { color:#f8ce08; }
+  body.single .content aside .widget { margin-bottom:2em; }
+  body.single .content aside ul { }
+  body.single .content aside a { color:#000; }
+</style>
+<div class="story_sub_info">
+	<img src="/assets/img/story_info_text.png"/>
+</div>
+
+<div class="wrap container" role="document">
+  <div class="content row">
+
+    <div class="main span8" role="main">
+      <hr class='dot'>
+        <article class="post-1068 post type-post status-publish format-standard hentry category-stories">
+    <header>
+      <h1 class="entry-title">좋은 일에 쓰인다니 더 좋아요</h1>
+      <div class='meta'>
+  Posted 
+  at <time class="updated" datetime="2013-12-09T22:54:31+00:00" pubdate>2013-12-09</time>
+  by <span class="byline author vcard">By <a href="<%= url_for '/' %>author/10001if/" rel="author" class="fn">10001if</a></span>
+</div>
+    </header>
+    <div class="entry-content">
+      <p><a href="<%= url_for '/' %>wp-content/uploads/2013/12/20131119_121742.jpg" ><img class="alignnone size-medium wp-image-1058" alt="20131119_121742" src="<%= url_for '/' %>wp-content/uploads/2013/12/20131119_121742-300x225.jpg" width="300" height="225" /></a>   <a href="<%= url_for '/' %>wp-content/uploads/2013/12/20131119_121750.jpg" ><img class="alignnone size-medium wp-image-1059" alt="20131119_121750" src="<%= url_for '/' %>wp-content/uploads/2013/12/20131119_121750-300x225.jpg" width="300" height="225" /></a></p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/12/20131119_110948.jpg" ><img class="alignnone size-medium wp-image-1056" alt="20131119_110948" src="<%= url_for '/' %>wp-content/uploads/2013/12/20131119_110948-225x300.jpg" width="225" height="300" /></a>   <a href="<%= url_for '/' %>wp-content/uploads/2013/12/20131119_110931.jpg" ><img class="alignnone size-medium wp-image-1055" alt="20131119_110931" src="<%= url_for '/' %>wp-content/uploads/2013/12/20131119_110931-225x300.jpg" width="225" height="300" /></a>   <a href="<%= url_for '/' %>wp-content/uploads/2013/12/20131119_111004.jpg" ><img class="alignnone size-medium wp-image-1057" alt="20131119_111004" src="<%= url_for '/' %>wp-content/uploads/2013/12/20131119_111004-300x225.jpg" width="300" height="225" /></a></p>
+<p>&nbsp;</p>
+<p>Q. 옷장 정리를 신청하시게 된 계기는?</p>
+<p>이사 후 옷정리를 해도 깔끔하지 않고 자꾸 쌓아두고 있었는데</p>
+<p>우연히 열린옷장 옷장정리에 대해 듣게 되어 신청했어요.</p>
+<p>&nbsp;</p>
+<p>Q. 정리 전문가들과 함께 옷장정리를 해보신 소감은?</p>
+<p>너무 깔끔하고 정리가 잘 된 것 같아요.</p>
+<p>&nbsp;</p>
+<p>Q. 기증하시는 옷들은 어떤 이야기를 품고 있나요?</p>
+<p>결혼 전에 입었던 옷인데 아이 낳고 집에만 있다보니 입을 일이 없더라구요.</p>
+<p>좋은 일에 쓰이게 된다니 기분이 좋아요.</p>
+<p>&nbsp;</p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/12/20131119_143005.jpg" ><img class="alignnone size-medium wp-image-1067" alt="20131119_143005" src="<%= url_for '/' %>wp-content/uploads/2013/12/20131119_143005-225x300.jpg" width="225" height="300" /></a></p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/12/20131119_141733.jpg" ><img class="alignnone size-medium wp-image-1066" alt="20131119_141733" src="<%= url_for '/' %>wp-content/uploads/2013/12/20131119_141733-225x300.jpg" width="225" height="300" /></a> <a href="<%= url_for '/' %>wp-content/uploads/2013/12/20131119_141727.jpg" ><img class="alignnone size-medium wp-image-1065" alt="20131119_141727" src="<%= url_for '/' %>wp-content/uploads/2013/12/20131119_141727-225x300.jpg" width="225" height="300" /></a></p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/12/20131119_141708.jpg" ><img class="alignnone size-medium wp-image-1064" alt="20131119_141708" src="<%= url_for '/' %>wp-content/uploads/2013/12/20131119_141708-300x225.jpg" width="300" height="225" /></a>  <a href="<%= url_for '/' %>wp-content/uploads/2013/12/20131119_141637.jpg" ><img class="alignnone size-medium wp-image-1062" alt="20131119_141637" src="<%= url_for '/' %>wp-content/uploads/2013/12/20131119_141637-300x225.jpg" width="300" height="225" /></a> <a href="<%= url_for '/' %>wp-content/uploads/2013/12/20131119_141632.jpg" ><img class="alignnone size-medium wp-image-1061" alt="20131119_141632" src="<%= url_for '/' %>wp-content/uploads/2013/12/20131119_141632-225x300.jpg" width="225" height="300" /></a> <a href="<%= url_for '/' %>wp-content/uploads/2013/12/20131119_141612.jpg" ><img class="alignnone size-medium wp-image-1060" alt="20131119_141612" src="<%= url_for '/' %>wp-content/uploads/2013/12/20131119_141612-225x300.jpg" width="225" height="300" /></a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+    </div>
+    <footer>
+          </footer>
+    <section id="comments">
+  <hr class='dot' style='height:6px'>
+  <div class="fb-comments" data-href="<%= url_for '/' %>%ec%a2%8b%ec%9d%80-%ec%9d%bc%ec%97%90-%ec%93%b0%ec%9d%b8%eb%8b%a4%eb%8b%88-%eb%8d%94-%ec%a2%8b%ec%95%84%ec%9a%94/" data-width="620px" data-num-posts="10"></div>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=131097673763497";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+</section>  </article>
+    </div><!-- /.main -->
+        <aside class="sidebar span4" role="complementary">
+      <hr class='dot'>
+      		<section class="widget recent-posts-2 widget_recent_entries"><div class="widget-inner">		<h3>최신 글</h3>		<ul>
+					<li>
+				<a href="<%= url_for '/' %>1149/" title="정리도 교육이 필요함을 알았어요">정리도 교육이 필요함을 알았어요</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>%eb%91%90%ea%b7%bc%ea%b1%b0%eb%a6%ac%eb%8a%94-%eb%a7%88%ec%9d%8c%ec%9c%bc%eb%a1%9c-%ec%9e%85%ec%97%88%eb%8d%98-%ec%98%b7%eb%93%a4%ec%9e%85%eb%8b%88%eb%8b%a4/" title="두근거리는 마음으로 입었던 옷들입니다">두근거리는 마음으로 입었던 옷들입니다</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>1115/" title="옷 정리와 함께 돈 벌었어요!">옷 정리와 함께 돈 벌었어요!</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>1098/" title="정리 전엔 늘 같은 옷만 입었어요">정리 전엔 늘 같은 옷만 입었어요</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>%ec%95%9e%ec%9c%bc%eb%a1%9c%eb%8a%94-%ec%a0%95%eb%a6%ac%ed%95%b4%ea%b0%80%eb%a9%b0-%ec%82%b4%ea%b2%a0%eb%8b%a4%eb%8a%94-%eb%8b%a4%ec%a7%90/" title="앞으로는 정리하며 살겠다는 다짐^^">앞으로는 정리하며 살겠다는 다짐^^</a>
+						</li>
+				</ul>
+		</div></section><section class="widget recent-comments-2 widget_recent_comments"><div class="widget-inner"><h3>최신 댓글</h3><ul id="recentcomments"></ul></div></section>    </aside><!-- /.sidebar -->
+      </div><!-- /.content -->
+</div><!-- /.wrap -->

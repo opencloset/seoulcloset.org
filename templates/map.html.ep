@@ -1,0 +1,174 @@
+% layout 'seoulcloset', title => '옷장으로 그린 지도', body_class => 'page page-id-7 map', active => 'map';
+
+  <style>
+  .map_info { margin-bottom:30px; }
+  .map .mapview { margin-bottom:40px; height:0; }
+  .map .info_house, .map .info_dress { margin-bottom:2em; }
+  .map .number { text-align:center; font-weight:bold; }
+  .map .number span { display:inline-block; width:146px; height:146px; background:url(/assets/img/bg_number.png); font-size:7em; line-height:140px; letter-spacing:0px; font-weight:bold; }
+  .map .info_house .house { width:32px; height:32px; display:inline-block; background:#FFF url(/assets/img/icon_house.png); background-position-y:-32px; margin:0 5px 5px 0; }
+  .map .info_house .house.active { width:32px; height:32px; display:inline-block; background:#F8CE08 url(/assets/img/icon_house.png); }
+  .map .info_dress .dress.first { width:104px; height:137px; display:inline-block; background:url(/assets/img/icon_dress_first.png); margin:0; }
+  .map .info_dress .dress { width:67px; height:137px; display:inline-block; background:url(/assets/img/icon_dress_off.png); margin-left:-37px;  }
+  .map .info_dress .dress.active { width:67px; height:137px; display:inline-block; background:url(/assets/img/icon_dress_on.png); }
+</style>
+
+<div class="map_info">
+	<img src="/assets/img/map_text.png" alt="map_text"/>
+</div>
+<div class="map">
+	<div class="wrapp">
+		<div class="container">
+			
+			<div class="mapview">
+								      <style>
+        .info-wiindow-inner {  }
+      </style>
+      <div id="map_canvas" style="width:100%; height:540px"></div>
+      <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBnUY5sPY5Sm7UUhE5niboCe2m7gL6TrlI&sensor=false"></script>
+      <script type="text/javascript">
+        var mapOptions = {
+          center: new google.maps.LatLng(33.377, 126.513),
+          zoom: 10,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        var places = [
+        { 'thumb':'', 'title':'휘경동 박선희 님', 'address':'서울시 동대문구 휘경동', 'interview':'', 'result':'', 'lat':'37.5900176', 'lng':'127.0636187' },{ 'thumb':'', 'title':'신사동 강한수 님', 'address':'서울시 강남구 신사동', 'interview':'', 'result':'정리와 기증 완료', 'lat':'37.5226879', 'lng':'127.0252724' },{ 'thumb':'', 'title':'인헌동 김희선 님', 'address':'서울시 관악구 인헌동', 'interview':'', 'result':'정리와 기증 완료', 'lat':'37.475074', 'lng':'126.965307' },{ 'thumb':'', 'title':'상일동 유주희 님', 'address':'서울시 영등포구 신길7동', 'interview':'정리와 기증 완료', 'result':'', 'lat':'37.5063464', 'lng':'126.9213654' },{ 'thumb':'', 'title':'신길동 마주호 님', 'address':'서울시 영등포구 신길7동', 'interview':'', 'result':'정리와 기증 완료', 'lat':'37.5063464', 'lng':'126.9213654' },{ 'thumb':'', 'title':'구로동 김경희 님', 'address':'서울시 구로구 구로동', 'interview':'', 'result':'정리와 기증 완료', 'lat':'37.4951854', 'lng':'126.8820641' },{ 'thumb':'', 'title':'천호동 김문영 님', 'address':'서울시 강동구 천호동', 'interview':'', 'result':'정리와 기증 완료', 'lat':'37.5439937', 'lng':'127.1256452' },{ 'thumb':'', 'title':'사당동 김보미 님', 'address':'서울시 동작구 사당동', 'interview':'', 'result':'정리와 기증 완료', 'lat':'37.4862548', 'lng':'126.9733325' },{ 'thumb':'', 'title':'고덕동 김정은 님', 'address':'서울시 강동구 고덕동', 'interview':'', 'result':'정리와 기증 완료', 'lat':'37.5632814', 'lng':'127.1570594' },{ 'thumb':'', 'title':'신림동 김복음 님', 'address':'서울시 관악구 신림동', 'interview':'', 'result':'정리와 기증 완료', 'lat':'37.4626176', 'lng':'126.9383251' },{ 'thumb':'', 'title':'방학동 이영신 님', 'address':'서울시 도봉구 방학동 ', 'interview':'', 'result':'정리와 기증 완료', 'lat':'37.6666657', 'lng':'127.0337541' },{ 'thumb':'', 'title':'신림동 김주희 님', 'address':'서울시 관악구 신림동', 'interview':'', 'result':'정리와 기증 완료', 'lat':'37.4626176', 'lng':'126.9383251' },{ 'thumb':'', 'title':'성산동 김소연 님', 'address':'서울시 마포구 성산동', 'interview':'', 'result':'정리와 기증 완료', 'lat':'37.5657426', 'lng':'126.9033058' },{ 'thumb':'', 'title':'홍제동 서은지 님', 'address':'서울시 서대문구 홍제3동', 'interview':'', 'result':'정리와 기증 완료', 'lat':'37.5939752', 'lng':'126.9495272' },{ 'thumb':'', 'title':'문정동 하지희 님', 'address':'서울시 송파구 문정동', 'interview':'', 'result':'정리와 기증 완료', 'lat':'37.4851331', 'lng':'127.1238462' },{ 'thumb':'', 'title':'반포동 배시연 님', 'address':'서울시 서초구 반포동', 'interview':'', 'result':'정리와 기증 완료', 'lat':'37.5031833', 'lng':'127.0079167' },{ 'thumb':'', 'title':'면목동 서은미 님', 'address':'서울시 중량구 면목2동', 'interview':'', 'result':'정리와 기증 완료', 'lat':'37.5897', 'lng':'127.0790427' },{ 'thumb':'', 'title':'염창동 김선영 님', 'address':'서울시 강서구 염창동', 'interview':'', 'result':'정리와 기증 완료', 'lat':'37.5540319', 'lng':'126.8717993' },{ 'thumb':'', 'title':'신도림동 김희정 님', 'address':'서울시 구로구 신도림동', 'interview':'', 'result':'정리와 기증 완료', 'lat':'37.509469', 'lng':'126.882105' },{ 'thumb':'', 'title':'상계동 허정숙 님', 'address':'서울시 노원구 상계2동', 'interview':'', 'result':'정리와 기증 완료', 'lat':'37.6587754', 'lng':'127.0684857' },        ];
+        var map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
+        var bounds = new google.maps.LatLngBounds();
+        var infoWindow = new google.maps.InfoWindow();
+
+        for (var i in places) {
+          var place = places[i];
+          var marker = new google.maps.Marker({
+            map: map,
+            animation: google.maps.Animation.DROP,
+            position: new google.maps.LatLng(place['lat'], place['lng']),
+            title: place['title'],
+            info: "<div class='info-window-inner'>"+place['thumb']+"<p>"+place['title']+"<br>"+place['interview']+"<br>"+place['result']+"</p></div>",
+          });
+          bounds.extend(marker.position);
+          google.maps.event.addListener(marker, 'click', function(event) {
+            console.log(this);
+            infoWindow.setContent(this.info);
+            infoWindow.open(map, this);
+          });
+        }
+        map.fitBounds(bounds);
+      </script>
+    			</div>
+			
+			<hr style='margin-bottom:50px;'>
+			
+			<div class="row info_house">
+				<div class="span3 number">
+				  <span>69</span><br>
+					가구가<br>옷장정리를 받았습니다
+				</div>
+				
+				<div class="span9 icon">
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house active'></span>
+				  				    <span class='house '></span>
+				  				    <span class='house '></span>
+				  				    <span class='house '></span>
+				  				</div>
+			</div> <!-- end. row-fluid -->
+			
+			<div class="row info_dress">
+				<div class="span3 number">
+				  					<span>1587</span><br>
+  				벌의 정장이<br>기증되었습니다 
+				</div>
+				<div class="span9">
+				  <span class="dress first"></span>
+				  				    <span class='dress active'></span>
+				  				    <span class='dress active'></span>
+				  				    <span class='dress active'></span>
+				  				    <span class='dress active'></span>
+				  				    <span class='dress active'></span>
+				  				    <span class='dress active'></span>
+				  				    <span class='dress active'></span>
+				  				    <span class='dress active'></span>
+				  				    <span class='dress active'></span>
+				  				    <span class='dress active'></span>
+				  				    <span class='dress active'></span>
+				  				    <span class='dress active'></span>
+				  				    <span class='dress active'></span>
+				  				    <span class='dress active'></span>
+				  				    <span class='dress active'></span>
+				  				    <span class='dress active'></span>
+				  				    <span class='dress active'></span>
+				  				</div>
+			</div> <!-- end. row-fluid -->
+									
+		</div> <!-- end. container -->
+	</div> <!-- end. wrapp -->
+</div> <!-- end. map -->

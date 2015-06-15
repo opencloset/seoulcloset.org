@@ -1,0 +1,95 @@
+  <style>
+  .story_sub_info {
+  	height: 160px;
+  	background-image: url(/assets/img/story_background.png);
+  	background-repeat: repeat-x;
+  	text-align: center;
+  	padding-top: 40px;
+  }
+  
+  body.single .content a { color:#f8ce08; }
+  body.single .content article .entry-title, body.single article time { color:#f8ce08; }
+  body.single .content article .entry-content { padding:2em 0; }
+  body.single .content article footer { background:none; }
+  body.single .content article .meta { color:#c1c1c1; }
+  body.single .content aside { color:#f8ce08; }
+  body.single .content aside .widget { margin-bottom:2em; }
+  body.single .content aside ul { }
+  body.single .content aside a { color:#000; }
+</style>
+<div class="story_sub_info">
+	<img src="/assets/img/story_info_text.png"/>
+</div>
+
+<div class="wrap container" role="document">
+  <div class="content row">
+
+    <div class="main span8" role="main">
+      <hr class='dot'>
+        <article class="post-42 post type-post status-publish format-standard hentry category-stories">
+    <header>
+      <h1 class="entry-title">딸 아이 서랍장 드디어 정리했네요!</h1>
+      <div class='meta'>
+  Posted 
+  at <time class="updated" datetime="2013-07-01T14:34:01+00:00" pubdate>2013-07-01</time>
+  by <span class="byline author vcard">By <a href="<%= url_for '/' %>author/rest515/" rel="author" class="fn">rest515</a></span>
+</div>
+    </header>
+    <div class="entry-content">
+      <p>이미 옷장 정리를 하신 지인을 통해 알게 되어 신청하신 이혜영님!</p>
+<p>사실 남들에게 옷장을 열어 보이기가 쉽지 않았는데</p>
+<p>소개해주신 지인이 확 달라질것이라 확신을 주셔서 신청하게되셨다고 하네요.</p>
+<p>지금 현재 방하나를 옷방으로 쓰고 있는데</p>
+<p>이 방을 언젠가 아이가 더 크면 아이방으로 바꿔 주고 싶은 꿈을 가지고 계시네요.</p>
+<p>&nbsp;</p>
+<p>본격적인 정리가 시작되어 안방에 있는 옷장과 서랍장, 그리고 아이서랍을 정리했는데요.</p>
+<p>안방옷장은 한 곳은 아빠옷, 한 곳은 이불, 한 곳은 엄마옷으로 구분하여</p>
+<p>최대한 섞이지 않게 정리를 해드렸어요.</p>
+<p>그리고 공기청정기와 스탠드 옷걸이의 위치를 바꾸는</p>
+<p>간단한 자리 재배치를 통해 옷장을 효율적으로 사용하실 수 있도록 도와드렸어요.</p>
+<p>&nbsp;</p>
+<p>딸아이의 서랍을 다시 정리해서 너무 기분이 좋았다는 혜영 님!</p>
+<p>서울시민 열린옷장 만들기에 함께 해주셔서 정말 감사합니다~</p>
+<p>&nbsp;</p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/07/DSCF4369.jpg" ><img class="alignnone  wp-image-338" alt="DSCF4369" src="<%= url_for '/' %>wp-content/uploads/2013/07/DSCF4369-1024x768.jpg" width="564" height="423" /></a></p>
+<p>&nbsp;</p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/07/DSCF4372.jpg" ><img class="alignnone size-medium wp-image-341" alt="DSCF4372" src="<%= url_for '/' %>wp-content/uploads/2013/07/DSCF4372-224x300.jpg" width="224" height="300" /></a></p>
+<p>&nbsp;</p>
+    </div>
+    <footer>
+          </footer>
+    <section id="comments">
+  <hr class='dot' style='height:6px'>
+  <div class="fb-comments" data-href="<%= url_for '/' %>%ed%85%8c%ec%8a%a4%ed%8a%b8-3/" data-width="620px" data-num-posts="10"></div>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=131097673763497";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+</section>  </article>
+    </div><!-- /.main -->
+        <aside class="sidebar span4" role="complementary">
+      <hr class='dot'>
+      		<section class="widget recent-posts-2 widget_recent_entries"><div class="widget-inner">		<h3>최신 글</h3>		<ul>
+					<li>
+				<a href="<%= url_for '/' %>1149/" title="정리도 교육이 필요함을 알았어요">정리도 교육이 필요함을 알았어요</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>%eb%91%90%ea%b7%bc%ea%b1%b0%eb%a6%ac%eb%8a%94-%eb%a7%88%ec%9d%8c%ec%9c%bc%eb%a1%9c-%ec%9e%85%ec%97%88%eb%8d%98-%ec%98%b7%eb%93%a4%ec%9e%85%eb%8b%88%eb%8b%a4/" title="두근거리는 마음으로 입었던 옷들입니다">두근거리는 마음으로 입었던 옷들입니다</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>1115/" title="옷 정리와 함께 돈 벌었어요!">옷 정리와 함께 돈 벌었어요!</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>1098/" title="정리 전엔 늘 같은 옷만 입었어요">정리 전엔 늘 같은 옷만 입었어요</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>%ec%95%9e%ec%9c%bc%eb%a1%9c%eb%8a%94-%ec%a0%95%eb%a6%ac%ed%95%b4%ea%b0%80%eb%a9%b0-%ec%82%b4%ea%b2%a0%eb%8b%a4%eb%8a%94-%eb%8b%a4%ec%a7%90/" title="앞으로는 정리하며 살겠다는 다짐^^">앞으로는 정리하며 살겠다는 다짐^^</a>
+						</li>
+				</ul>
+		</div></section><section class="widget recent-comments-2 widget_recent_comments"><div class="widget-inner"><h3>최신 댓글</h3><ul id="recentcomments"></ul></div></section>    </aside><!-- /.sidebar -->
+      </div><!-- /.content -->
+</div><!-- /.wrap -->

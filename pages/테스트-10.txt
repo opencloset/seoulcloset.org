@@ -1,0 +1,111 @@
+  <style>
+  .story_sub_info {
+  	height: 160px;
+  	background-image: url(/assets/img/story_background.png);
+  	background-repeat: repeat-x;
+  	text-align: center;
+  	padding-top: 40px;
+  }
+  
+  body.single .content a { color:#f8ce08; }
+  body.single .content article .entry-title, body.single article time { color:#f8ce08; }
+  body.single .content article .entry-content { padding:2em 0; }
+  body.single .content article footer { background:none; }
+  body.single .content article .meta { color:#c1c1c1; }
+  body.single .content aside { color:#f8ce08; }
+  body.single .content aside .widget { margin-bottom:2em; }
+  body.single .content aside ul { }
+  body.single .content aside a { color:#000; }
+</style>
+<div class="story_sub_info">
+	<img src="/assets/img/story_info_text.png"/>
+</div>
+
+<div class="wrap container" role="document">
+  <div class="content row">
+
+    <div class="main span8" role="main">
+      <hr class='dot'>
+        <article class="post-57 post type-post status-publish format-standard hentry category-stories">
+    <header>
+      <h1 class="entry-title">옷장정리의 필요성을 느꼈어요!</h1>
+      <div class='meta'>
+  Posted 
+  at <time class="updated" datetime="2013-07-01T15:01:05+00:00" pubdate>2013-07-01</time>
+  by <span class="byline author vcard">By <a href="<%= url_for '/' %>author/rest515/" rel="author" class="fn">rest515</a></span>
+</div>
+    </header>
+    <div class="entry-content">
+      <p>&nbsp;</p>
+<p><strong>“이번에 이사를 하게 됐는데 옷장정리 필요성을 느꼈어요. </strong></p>
+<p><strong>워킹맘이기도 하고요..</strong></p>
+<p><strong>원래 아이가 있음 정리가 어렵잖아요&#8230;“</strong></p>
+<p>&nbsp;</p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/07/noname02.bmp" ><img class="alignnone size-full wp-image-275" alt="noname02" src="<%= url_for '/' %>wp-content/uploads/2013/07/noname02.bmp" /></a></p>
+<p>착한정리 제타랩 정미숙 이사님과</p>
+<p>옷장정리에 참여 해주신 김경은님의 모습</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>1. 이번 서울시민 옷장정리 프로젝트 참여 계기는 어떻게 되세요?</strong></p>
+<p>먼저 신청한 친구의 소개로 신청하게 되었어요.</p>
+<p>제가 이번에 이사도 했고 아직 애기가 어려서 정리가 어려웠어요.</p>
+<p>우선 저희 부부 옷도 많지만 애기용품 정리가 어렵더라구요.</p>
+<p>종류도 다양하고 사이즈도 작기 때문에 성인 옷과 구분 정리가 필요했어요.</p>
+<p>&nbsp;</p>
+<p><strong>2. 이번 프로젝트에 참여하면서 좋은 점은요?</strong></p>
+<p>옷장의 활용도가 높아졌어요.</p>
+<p>자주 사 용하는 여행가방을 옷장 천장이나 구석 에 두고 사용했는데</p>
+<p>제타랩분들께서 정리를 잘 해주셔서 옷장 안에 두고 손쉽 게 꺼내서 사용 할 수 있게 되었어요.</p>
+<p>그리고 애기용품 정리법도 가르쳐 주셨어요. 중요한건 옷장정리의 필요 성을 느꼈어요.</p>
+<p>&nbsp;</p>
+<p><strong>3. 정리하면서 나온 옷들이 총 4박스인데요. 이렇게 직접 정리하는 모습을 보니</strong></p>
+<p><strong> ‘감사한 마음과 꼭 필요한 분들에게 돌아가야 겠다.’ 라는 마음이 절로 생깁니다.</strong></p>
+<p>열린옷장 박스에는 남편 옷이 많아요.</p>
+<p>남편이 입던 정장들이 신입사원일때 입던 정장들인데</p>
+<p>본인한테도 의미가 있겠지만 필요한 분들에게 좋게 활용한다니 흔쾌히 허락 하더라구요.</p>
+<p>저도 대학 졸업하고 비싸게 주고 산 정장들이 그때만 입고 잘 안입게 되더라구요.</p>
+<p>특별한 스토리는 없지만 앞으로 입으신 분들이 앞으로 좋은 이야기 만들어 주세요. ^^</p>
+<p>&nbsp;</p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/07/noname07.bmp" ><img class="alignnone size-full wp-image-278" alt="noname07" src="<%= url_for '/' %>wp-content/uploads/2013/07/noname07.bmp" /></a></p>
+<p>옷장내부가 칸칸히 잘 정리 되어 있는 김경은님 옷장</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+    </div>
+    <footer>
+          </footer>
+    <section id="comments">
+  <hr class='dot' style='height:6px'>
+  <div class="fb-comments" data-href="<%= url_for '/' %>%ed%85%8c%ec%8a%a4%ed%8a%b8-10/" data-width="620px" data-num-posts="10"></div>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=131097673763497";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+</section>  </article>
+    </div><!-- /.main -->
+        <aside class="sidebar span4" role="complementary">
+      <hr class='dot'>
+      		<section class="widget recent-posts-2 widget_recent_entries"><div class="widget-inner">		<h3>최신 글</h3>		<ul>
+					<li>
+				<a href="<%= url_for '/' %>1149/" title="정리도 교육이 필요함을 알았어요">정리도 교육이 필요함을 알았어요</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>%eb%91%90%ea%b7%bc%ea%b1%b0%eb%a6%ac%eb%8a%94-%eb%a7%88%ec%9d%8c%ec%9c%bc%eb%a1%9c-%ec%9e%85%ec%97%88%eb%8d%98-%ec%98%b7%eb%93%a4%ec%9e%85%eb%8b%88%eb%8b%a4/" title="두근거리는 마음으로 입었던 옷들입니다">두근거리는 마음으로 입었던 옷들입니다</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>1115/" title="옷 정리와 함께 돈 벌었어요!">옷 정리와 함께 돈 벌었어요!</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>1098/" title="정리 전엔 늘 같은 옷만 입었어요">정리 전엔 늘 같은 옷만 입었어요</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>%ec%95%9e%ec%9c%bc%eb%a1%9c%eb%8a%94-%ec%a0%95%eb%a6%ac%ed%95%b4%ea%b0%80%eb%a9%b0-%ec%82%b4%ea%b2%a0%eb%8b%a4%eb%8a%94-%eb%8b%a4%ec%a7%90/" title="앞으로는 정리하며 살겠다는 다짐^^">앞으로는 정리하며 살겠다는 다짐^^</a>
+						</li>
+				</ul>
+		</div></section><section class="widget recent-comments-2 widget_recent_comments"><div class="widget-inner"><h3>최신 댓글</h3><ul id="recentcomments"></ul></div></section>    </aside><!-- /.sidebar -->
+      </div><!-- /.content -->
+</div><!-- /.wrap -->

@@ -1,0 +1,92 @@
+  <style>
+  .story_sub_info {
+  	height: 160px;
+  	background-image: url(/assets/img/story_background.png);
+  	background-repeat: repeat-x;
+  	text-align: center;
+  	padding-top: 40px;
+  }
+  
+  body.single .content a { color:#f8ce08; }
+  body.single .content article .entry-title, body.single article time { color:#f8ce08; }
+  body.single .content article .entry-content { padding:2em 0; }
+  body.single .content article footer { background:none; }
+  body.single .content article .meta { color:#c1c1c1; }
+  body.single .content aside { color:#f8ce08; }
+  body.single .content aside .widget { margin-bottom:2em; }
+  body.single .content aside ul { }
+  body.single .content aside a { color:#000; }
+</style>
+<div class="story_sub_info">
+	<img src="/assets/img/story_info_text.png"/>
+</div>
+
+<div class="wrap container" role="document">
+  <div class="content row">
+
+    <div class="main span8" role="main">
+      <hr class='dot'>
+        <article class="post-964 post type-post status-publish format-standard hentry category-stories">
+    <header>
+      <h1 class="entry-title">어떻게 이렇게 정리가 되는지 신기해요!</h1>
+      <div class='meta'>
+  Posted 
+  at <time class="updated" datetime="2013-12-08T19:09:50+00:00" pubdate>2013-12-08</time>
+  by <span class="byline author vcard">By <a href="<%= url_for '/' %>author/10001if/" rel="author" class="fn">10001if</a></span>
+</div>
+    </header>
+    <div class="entry-content">
+      <p>Q. 옷장 정리를 신청하시게 된 계기는?</p>
+<p>남편이 해외로 파견근무를 나가게 되면서</p>
+<p>신청하게 되었습니다.</p>
+<p>&nbsp;</p>
+<p>Q. 정리 전문가들과 함께 옷장정리를 해보신 소감은?</p>
+<p>친정으로 집이 합쳐져서 너무 옷이 많아</p>
+<p>어떻게 해야 할지 몰랐는데 역시 전문가는 틀리더군요^^  </p>
+<p>정말 쵝오&#8230; 어떻게 하면 이렇게 정리할 수 있는지 신기할 따름입니다.</p>
+<p>&nbsp;</p>
+<p>Q. 기증하시는 옷들은 어떤 이야기를 품고 있나요?</p>
+<p>남편 옷을 기증하고 싶었는데 거의 해외로 들고 갔는지 없고,</p>
+<p>제 옷은 솔직히 처녀때 입던 옷이라 좀 오래됐어요.</p>
+<p>왠지 미안하네요. 특별한 추억은 없습니다.</p>
+<p>&nbsp;</p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/12/20131028_163118-e1386497345587.jpg" ><img class="alignnone size-medium wp-image-961" alt="20131028_163118" src="<%= url_for '/' %>wp-content/uploads/2013/12/20131028_163118-e1386497345587-225x300.jpg" width="225" height="300" /></a></p>
+<p>&nbsp;</p>
+    </div>
+    <footer>
+          </footer>
+    <section id="comments">
+  <hr class='dot' style='height:6px'>
+  <div class="fb-comments" data-href="<%= url_for '/' %>%ec%96%b4%eb%96%bb%ea%b2%8c-%ec%9d%b4%eb%a0%87%ea%b2%8c-%ec%a0%95%eb%a6%ac%ea%b0%80-%eb%90%98%eb%8a%94%ec%a7%80-%ec%8b%a0%ea%b8%b0%ed%95%b4%ec%9a%94/" data-width="620px" data-num-posts="10"></div>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=131097673763497";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+</section>  </article>
+    </div><!-- /.main -->
+        <aside class="sidebar span4" role="complementary">
+      <hr class='dot'>
+      		<section class="widget recent-posts-2 widget_recent_entries"><div class="widget-inner">		<h3>최신 글</h3>		<ul>
+					<li>
+				<a href="<%= url_for '/' %>1149/" title="정리도 교육이 필요함을 알았어요">정리도 교육이 필요함을 알았어요</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>%eb%91%90%ea%b7%bc%ea%b1%b0%eb%a6%ac%eb%8a%94-%eb%a7%88%ec%9d%8c%ec%9c%bc%eb%a1%9c-%ec%9e%85%ec%97%88%eb%8d%98-%ec%98%b7%eb%93%a4%ec%9e%85%eb%8b%88%eb%8b%a4/" title="두근거리는 마음으로 입었던 옷들입니다">두근거리는 마음으로 입었던 옷들입니다</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>1115/" title="옷 정리와 함께 돈 벌었어요!">옷 정리와 함께 돈 벌었어요!</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>1098/" title="정리 전엔 늘 같은 옷만 입었어요">정리 전엔 늘 같은 옷만 입었어요</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>%ec%95%9e%ec%9c%bc%eb%a1%9c%eb%8a%94-%ec%a0%95%eb%a6%ac%ed%95%b4%ea%b0%80%eb%a9%b0-%ec%82%b4%ea%b2%a0%eb%8b%a4%eb%8a%94-%eb%8b%a4%ec%a7%90/" title="앞으로는 정리하며 살겠다는 다짐^^">앞으로는 정리하며 살겠다는 다짐^^</a>
+						</li>
+				</ul>
+		</div></section><section class="widget recent-comments-2 widget_recent_comments"><div class="widget-inner"><h3>최신 댓글</h3><ul id="recentcomments"></ul></div></section>    </aside><!-- /.sidebar -->
+      </div><!-- /.content -->
+</div><!-- /.wrap -->

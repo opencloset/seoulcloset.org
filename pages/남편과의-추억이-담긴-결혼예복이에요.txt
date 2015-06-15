@@ -1,0 +1,104 @@
+  <style>
+  .story_sub_info {
+  	height: 160px;
+  	background-image: url(/assets/img/story_background.png);
+  	background-repeat: repeat-x;
+  	text-align: center;
+  	padding-top: 40px;
+  }
+  
+  body.single .content a { color:#f8ce08; }
+  body.single .content article .entry-title, body.single article time { color:#f8ce08; }
+  body.single .content article .entry-content { padding:2em 0; }
+  body.single .content article footer { background:none; }
+  body.single .content article .meta { color:#c1c1c1; }
+  body.single .content aside { color:#f8ce08; }
+  body.single .content aside .widget { margin-bottom:2em; }
+  body.single .content aside ul { }
+  body.single .content aside a { color:#000; }
+</style>
+<div class="story_sub_info">
+	<img src="/assets/img/story_info_text.png"/>
+</div>
+
+<div class="wrap container" role="document">
+  <div class="content row">
+
+    <div class="main span8" role="main">
+      <hr class='dot'>
+        <article class="post-558 post type-post status-publish format-standard hentry category-stories">
+    <header>
+      <h1 class="entry-title">추억이 담긴 결혼예복이에요</h1>
+      <div class='meta'>
+  Posted 
+  at <time class="updated" datetime="2013-11-07T12:20:27+00:00" pubdate>2013-11-07</time>
+  by <span class="byline author vcard">By <a href="<%= url_for '/' %>author/10001if/" rel="author" class="fn">10001if</a></span>
+</div>
+    </header>
+    <div class="entry-content">
+      <p><img class="alignnone size-medium wp-image-569" alt="DSCF4373" src="<%= url_for '/' %>wp-content/uploads/2013/11/DSCF4373-300x224.jpg" width="300" height="224" /></p>
+<p>&nbsp;</p>
+<p><strong>Q. 옷장정리를 신청하게 된 계기는?</strong></p>
+<p>지인의 소개로 신청하게 되었습니다.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/11/DSCF43671.jpg" ><img class="alignnone size-medium wp-image-566" alt="DSCF4367" src="<%= url_for '/' %>wp-content/uploads/2013/11/DSCF43671-300x224.jpg" width="300" height="224" /></a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>Q. 정리전문가들과 함께 옷장정리를 해본 후 차이는?</strong></p>
+<p>체계적이고 깔끔하게 정리하시는 모습이 역시 전문가의 손길은 다르네요.</p>
+<p>가르쳐주신 방법대로 열심히 유지하도록 노력하겠습니다.</p>
+<p>&nbsp;</p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/11/DSCF4363.jpg" ><img class="alignnone size-medium wp-image-571" alt="DSCF4363" src="<%= url_for '/' %>wp-content/uploads/2013/11/DSCF4363-224x300.jpg" width="224" height="300" /></a>   <a href="<%= url_for '/' %>wp-content/uploads/2013/11/DSCF4366.jpg" ><img class="alignnone size-medium wp-image-564" alt="DSCF4366" src="<%= url_for '/' %>wp-content/uploads/2013/11/DSCF4366-224x300.jpg" width="224" height="300" /></a></p>
+<p>&nbsp;</p>
+<p><strong>Q. 안 입는 옷으로 분류된 정장류는 열린옷장에 기증되어 정장이 필요한 구직자들에게 대여됩니다. </strong></p>
+<p><strong>기증하시는 정장에 담긴 이야기를 들려주세요.</strong></p>
+<p>결혼식 예복으로 남편과 추억이 담긴 정장입니다.</p>
+<p>남편의 안정된 직장의 기운을 받아 좋은 직장에 취직하시길 바랄게요.</p>
+<p>&nbsp;</p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/11/DSCF43691.jpg" ><img class="alignnone size-medium wp-image-568" alt="DSCF4369" src="<%= url_for '/' %>wp-content/uploads/2013/11/DSCF43691-300x224.jpg" width="300" height="224" /></a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>Q. 기증해주신 정장을 입고 입사면접을 보게 될 구직자들에게 사회선배로서 응원을 해주신다면?</strong></p>
+<p>취업난이 심해져서 구직자들의 어깨가 무겁지만 좌절하지마시고 힘내시고</p>
+<p>오뚜기처럼 일어나서 도전하시길 바래요. 분명 좋은 결과가 올거에요. 화이팅요!!</p>
+<p>&nbsp;</p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/11/DSCF4372.jpg" ><img class="alignnone size-medium wp-image-570" alt="DSCF4372" src="<%= url_for '/' %>wp-content/uploads/2013/11/DSCF4372-224x300.jpg" width="224" height="300" /></a></p>
+    </div>
+    <footer>
+          </footer>
+    <section id="comments">
+  <hr class='dot' style='height:6px'>
+  <div class="fb-comments" data-href="<%= url_for '/' %>%eb%82%a8%ed%8e%b8%ea%b3%bc%ec%9d%98-%ec%b6%94%ec%96%b5%ec%9d%b4-%eb%8b%b4%ea%b8%b4-%ea%b2%b0%ed%98%bc%ec%98%88%eb%b3%b5%ec%9d%b4%ec%97%90%ec%9a%94/" data-width="620px" data-num-posts="10"></div>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=131097673763497";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+</section>  </article>
+    </div><!-- /.main -->
+        <aside class="sidebar span4" role="complementary">
+      <hr class='dot'>
+      		<section class="widget recent-posts-2 widget_recent_entries"><div class="widget-inner">		<h3>최신 글</h3>		<ul>
+					<li>
+				<a href="<%= url_for '/' %>1149/" title="정리도 교육이 필요함을 알았어요">정리도 교육이 필요함을 알았어요</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>%eb%91%90%ea%b7%bc%ea%b1%b0%eb%a6%ac%eb%8a%94-%eb%a7%88%ec%9d%8c%ec%9c%bc%eb%a1%9c-%ec%9e%85%ec%97%88%eb%8d%98-%ec%98%b7%eb%93%a4%ec%9e%85%eb%8b%88%eb%8b%a4/" title="두근거리는 마음으로 입었던 옷들입니다">두근거리는 마음으로 입었던 옷들입니다</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>1115/" title="옷 정리와 함께 돈 벌었어요!">옷 정리와 함께 돈 벌었어요!</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>1098/" title="정리 전엔 늘 같은 옷만 입었어요">정리 전엔 늘 같은 옷만 입었어요</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>%ec%95%9e%ec%9c%bc%eb%a1%9c%eb%8a%94-%ec%a0%95%eb%a6%ac%ed%95%b4%ea%b0%80%eb%a9%b0-%ec%82%b4%ea%b2%a0%eb%8b%a4%eb%8a%94-%eb%8b%a4%ec%a7%90/" title="앞으로는 정리하며 살겠다는 다짐^^">앞으로는 정리하며 살겠다는 다짐^^</a>
+						</li>
+				</ul>
+		</div></section><section class="widget recent-comments-2 widget_recent_comments"><div class="widget-inner"><h3>최신 댓글</h3><ul id="recentcomments"></ul></div></section>    </aside><!-- /.sidebar -->
+      </div><!-- /.content -->
+</div><!-- /.wrap -->

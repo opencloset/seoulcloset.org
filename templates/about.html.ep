@@ -1,0 +1,322 @@
+% layout 'seoulcloset', title => '서울시민 열린옷장이란?', body_class => 'page page-id-2 about', active => 'about';
+
+  <style>
+  body.about .banner {
+        height:500px;
+        background: url(/assets/img/intro_background.png) repeat-x;
+        padding-top: 40px;
+  }
+  
+  body.about .banner {
+        height:500px;
+        background: url(/assets/img/intro_background.png) repeat-x;
+        padding-top: 40px;
+  }
+  
+  body.about .intro_info {
+    background: url(/assets/img/intro_banner.png) no-repeat;
+    height:380px;
+  }
+  
+  body.about .intro_info .carousel-inner .item { margin: 90px 00px 0 80px; }  
+  body.about .intro_info .carousel .item .title p { line-height: 24px; margin: 20px 20px 0 0; border-right: solid 2px #b7b7b7; }
+  body.about .intro_info .carousel .item .title img { display:block; margin-top: 25px; }
+  body.about .intro_info .carousel .item .description {
+    line-height: 18px;
+    vertical-align: middle;
+    font-size:12px;
+    font-weight: bold;
+    color:#555;
+    margin-top:20px;
+  }
+  
+  body.about .intro_info .carousel .item .row-fluid .span4 img{
+    margin-top: 25px;
+  }
+  
+  body.about .intro_info .carousel .carousel-indicators {
+    margin-top:86px;
+  }
+  
+  body.about .intro_info .row-fluid .span4 .circle{
+    background-image: url(/assets/img/apply_step1_circle.png);
+    height:84px;
+    width:72px;
+    margin:0 auto;
+    float:none;
+    margin-top:258px;
+    background-position-y: -83px;
+  }
+  
+  
+  
+  body.about .intro_info .row-fluid .span4 .circle2{
+    background-image: url(/assets/img/apply_step2_circle.png);
+    height:84px;
+    width:72px;
+    margin:0 auto;
+    float:none;
+    margin-top:258px;
+    background-position-y: 84px;
+  }
+  
+  body.about .intro_info .row-fluid .span4 .circle2:active{
+        background-position-y: -83px;
+  }
+  
+  body.about .intro_info .row-fluid .span4 .circle3{
+    background-image: url(/assets/img/apply_step3_circle.png);
+    height:84px;
+    width:72px;
+    margin:0 auto;
+    float:none;
+    margin-top:258px;
+    background-position-y: -83px;
+  }
+  
+  body.about .banner .carousel-indicators .active,
+  .intro_info .row-fluid .span4 li:hover { background-position-y: 1px !important; }
+
+  .carousel-indicators .active{ background:transparent; }
+  .carousel-indicators li { background-color:transparent; cursor: pointer; }
+
+.introduce .wrapp{
+        margin-top: 50px;
+}
+.introduce .introduce_contents {
+        height: auto;
+        padding-top: 20px;
+}
+
+.introduce .alert{
+  background: #fff;
+        border: solid 3px #f8ce08;
+        font-size: 18px;
+        color: #f8ce08;
+        letter-spacing: -1px;
+  line-height: 20px;
+        display:inline-block;
+        padding: 5px 70px 5px 5px;
+        margin:0;
+        font-weight: 600;
+} 
+
+.introduce .wrapp .container .introduce_contents{
+        height: auto;
+        margin-left: 0px;
+}
+
+
+.introduce .wrapp .introduce_contents ul {
+        margin: 0 0 2em 0;
+        min-height: 70px;
+        height:auto;
+}
+
+.introduce .introduce_contents li{
+        margin-left: 20px;
+        list-style: none;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 2em;
+}       
+
+
+.introduce .introduce_contents .intro {
+        margin-left: 0px;
+}
+
+
+.introduce .introduce_contents .title{
+        font-size: 16px;
+        letter-spacing: -1px;
+        margin-left: 0px;
+        padding: 0px;
+        font-weight: 600;
+}
+
+
+.introduce .introduce_contents b{
+        color: #f8ce08;
+}
+
+.introduce .introduce_contents p{
+        padding-top: 15px;
+        margin-bottom: 70px;
+}
+
+
+.introduce .wrapp .opencloset_logo {
+        padding-top: 20px;
+        float: right;
+        color: #f8ce08;
+        font-size: 16px;
+        font-weight: 600;
+}
+
+
+.introduce .introduce_contents .bottom {
+        margin-bottom: 50px;
+        margin-top: 70px;
+        height:100px;
+}
+
+
+.introduce .wrapp .container h2{
+        padding-left: 0px;
+        padding-top: 7px;
+        letter-spacing: -2px;
+        margin-bottom: 40px;
+}
+
+</style>
+<div class="introduce">
+
+  <!-- banner -->
+  <div class="banner visible-desktop">
+    <div class="container intro_info">
+
+      <div id="myCarousel" class="carousel slide">
+        <ol class="carousel-indicators row-fluid">
+          <div class="span4"><li data-target="#myCarousel" data-slide-to="0" class="circle active"></li></div>
+          <div class="span4"><li data-target="#myCarousel" data-slide-to="1" class="circle2"></li></div>
+          <div class="span4"><li data-target="#myCarousel" data-slide-to="2" class="circle3"></li></div>
+        </ol>
+
+        <!-- Carousel items -->
+        <div class="carousel-inner">
+          <div class="active item">
+            <div class="row-fluid">
+              <div class="span5 title">
+                <p>
+                 <u>1000만 서울시민과 함게 하는 <br>
+                 <b>서울시민 열린옷장 만들기 3단계</b></u>
+                 <img src="/assets/img/about_step1.png">   
+                </p>
+              </div>
+              <div class="span7 description">
+                "내 옷장 속 입지 않는 정장을 모으고 모아 <br>
+                1000만 벌짜리 거대한 옷장을 만들면 어떨까?" <br> <br>
+                
+                천만 서울시민과 서울시, 그리고  열린옷장이 함께 하는  <br>
+                &lt;서울시민 열린옷장&gt; 만들기는 이런 상상에서 시작되었습니다.  <br>
+                그리고 상상을 현실로 만들기 위한 열린옷장 사람들의 고민도 시작되었습니다.<br><br> 
+                 
+                "서울 골목골목 집집마다  어떻게 하면 옷장을 열게 만들 수 있을까?" <br><br>
+                
+                그래~우리가 집집마다 직접 찾아가 옷장 정리를 해드리자! <br>
+                정리 전문가와 함께! 착한정리 (주)제타랩과 함께 머리를 맞댄 결과<br>  
+                서울 시민들의 옷장을 정리할 구체적인 계획이 수립되었습니다.  <br>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="row-fluid">
+              <div class="span5 title">
+                <p>
+                 <u>1000만 서울시민과 함게 하는 <br>
+                 <b>서울시민 열린옷장 만들기 3단계</b></u>
+                 <img src="/assets/img/about_step2.png">   
+                </p>
+              </div>
+              <div class="span7 description">
+                "서울시민 여러분~ 정리가 필요한 당신의 옷장을 찾습니다!" <br>
+                
+                서울 시민들이 옷장 정리를 통해 기증한 정장이 모여 탄생하는  <br>
+                세상 모두를 위한 옷장, 서울시민 열린옷장 만들기!  <br>
+                나도 참여하고픈데 옷장 정리할 시간도 없고, 옷장 정리하는 법도 모르겠네ㅜㅜ  <br>
+                이런 분이시라면 지금 바로 옷장 정리를 신청하세요!  <br>
+                착한정리 (주)제타랩의 정리전문가들이 댁으로 방문하여  <br>
+                프로의 손길로 말끔히 정리해드립니다.  <br><br>
+                 
+                "이런 분들께 옷장 정리를 추천합니다"<br>
+                
+                - 매일 바빠서 옷장 정리를 미뤄온 맞벌이 부부나 1인 싱글<br>
+                - 결혼을 앞두고 새 보금자리로 이동을 준비하는 예비 부부<br>
+                - 연로하신 부모님께 옷장정리를 선물해드리고픈 자녀들 <br>
+                - 출산 후 몸매가 변해 옷장 정리가 필요한 주부<br>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="row-fluid">
+              <div class="span5 title">
+                <p>
+                 <u>1000만 서울시민과 함게 하는 <br>
+                 <b>서울시민 열린옷장 만들기 3단계</b></u>
+                 <img src="/assets/img/about_step3.png">   
+                </p>
+              </div>
+              <div class="span7 description">
+                "입지 않는 옷, 맞지 않는 옷은 <br>
+                정장공유 비영리단체 <열린옷장>으로!”<br><br>
+                
+                서울시민 열린옷장을 위한 옷장 정리의 끝은 기증~~ <br>
+                오래 전에 몇 번 입고 유행이 지나 그냥 넣어뒀던 정장...  <br>
+                살 빼면 입어야지 하는 마음에 고이고이 숨겨둔 정장...  <br>
+                복장이 자유로운 직장으로 이직해 잠만 자고 있는 정장...  <br>
+                옷장 속에 있으면 먼지만 쌓이지만,  <br>
+                서울시민 열린옷장에 있으면 가치가 소록소록 쌓입니다.  <br>
+                정장 공유 비영리단체, 열린옷장이 관리하며  <br>
+                구직 면접을 앞두고 정장이 꼭 필요한 사람들에게 대여 형태로 제공되어  <br>
+                옷의 가치를 끊임없이 재생산하게 될 테니까요!!<br>
+              </div><!-- span8 -->
+            </div><!-- row-fluid -->
+          </div><!-- item -->          
+        </div><!-- carousel-inner -->
+      </div>
+    </div><!-- intro_info-->
+  </div>
+  <!--banner-->
+  
+        <div class="wrapp">
+                <div class="container">
+                        <span class='alert'>서울시민 열린옷장 만들기는 옷장정리부터 시작됩니다</span>
+                        <h2>지금, 옷장정리를 신청하세요!</h2>   
+                        <div class="span8 introduce_contents">
+                                <ul>
+                                        <li class="title">신청요건</li>
+                                        <li>1 _ 서울에 소재한 옷장 정리가 필요한 집</li>
+                                        <li>2 _ 정장 1벌 이상 기증이 가능한 집</li>
+                                </ul>
+                                
+                                <ul>
+                                        <li class="title">신청기간</li>
+                                        <li>2013년 6월부터 <b>총 72가구</b> 선착순 마감까지 상시 모집</li>
+                                </ul>
+                                
+                                <ul>
+                                        <li class="title">신청방법</li>
+                                        <li>상단 메뉴의 <b>옷장정리 신청하기</b>를 클릭하신 후 신청서를 작성해주세요</li>
+                                </ul>
+                                
+                                <ul>
+                                        <li class="title">옷장정리 실행기간</li>
+                                        <li>2013년 6월 17일 - 11월 31일까지 </li>
+                                </ul>
+                                
+                                <ul>
+                                        <li class="title">기증안내</li>
+                                        <li><font color="#898989">옷장 정리 후 입지 않는 옷은 아래와 같이 분류되어 기증됩니다.</font color="#898989"></li>
+                                        <li>1 _ 정장 및 관련 아이템</li>
+                                        <li>구직자를 위한 면접의류를 공유하는 비영리단체, <b>열린옷장</b>에 기증</li>
+                                        <li>2 _ 정장 외 의류 및 아이템</li>
+                                        <li>제3세계 이웃들과 옷을 나누는 비영리단체, <b>옷캔</b>에 기증</li>
+                                </ul>
+
+                                <div class="bottom">    
+                                        <span class='alert'>옷장정리 가구특전</span> 
+                                        <p>착한정리 제타랩에서 <b><정리 컨설팅 아카데미> 8회 수강권</b>을 무료로 제공합니다. (20만원 상당)</p>
+                                </div> <!-- bottom -->
+                                
+                        </div> <!-- introduce_contents -->
+                        
+                        <div class="span4 opencloset_logo">
+                                <a href="http://theopencloset.net/" target="_blank"><img src="/assets/img/intro_opencloset_logo.png" width="222" height="222"></a>
+                                <p></i>열린옷장 만나러가기&nbsp;>
+                        </div> <!-- opencloset_logo -->
+                        
+                </div> <!-- end. container -->
+        </div> <!-- end. wrapp -->      
+
+</div> <!-- end. introduce -->

@@ -1,0 +1,106 @@
+  <style>
+  .story_sub_info {
+  	height: 160px;
+  	background-image: url(/assets/img/story_background.png);
+  	background-repeat: repeat-x;
+  	text-align: center;
+  	padding-top: 40px;
+  }
+  
+  body.single .content a { color:#f8ce08; }
+  body.single .content article .entry-title, body.single article time { color:#f8ce08; }
+  body.single .content article .entry-content { padding:2em 0; }
+  body.single .content article footer { background:none; }
+  body.single .content article .meta { color:#c1c1c1; }
+  body.single .content aside { color:#f8ce08; }
+  body.single .content aside .widget { margin-bottom:2em; }
+  body.single .content aside ul { }
+  body.single .content aside a { color:#000; }
+</style>
+<div class="story_sub_info">
+	<img src="/assets/img/story_info_text.png"/>
+</div>
+
+<div class="wrap container" role="document">
+  <div class="content row">
+
+    <div class="main span8" role="main">
+      <hr class='dot'>
+        <article class="post-63 post type-post status-publish format-standard hentry category-stories">
+    <header>
+      <h1 class="entry-title">공간은 그대로인데, 엄청 넓어보여요!</h1>
+      <div class='meta'>
+  Posted 
+  at <time class="updated" datetime="2013-07-01T15:01:58+00:00" pubdate>2013-07-01</time>
+  by <span class="byline author vcard">By <a href="<%= url_for '/' %>author/rest515/" rel="author" class="fn">rest515</a></span>
+</div>
+    </header>
+    <div class="entry-content">
+      <p><strong>1. </strong><strong>어떻게 알게 되셨나요?</strong></p>
+<p>열린옷장 페이스북을 팬페이지로 설정해서 올라오는 글들을 즐겨보고 있습니다. 그러다 서울시민열린옷장을 보고 신청하게 되었습니다.</p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/07/IMG_2835.jpg" ><img class="alignnone size-full wp-image-145" alt="IMG_2835" src="<%= url_for '/' %>wp-content/uploads/2013/07/IMG_2835.jpg" width="3648" height="2736" /></a></p>
+<p>&nbsp;</p>
+<p><strong>2. </strong><strong>신청한 계기는 어떻게 되나요?</strong></p>
+<p>평소에 입지 않는 옷들이 있어서 정리할 때 불편하더라고요. 그리고 마침 이사를 하게 되었는데, 전에 살 던 곳보다 작아서 정리가 필요하다고 생각했습니다. 또한 이제부터 새집에서는 깔끔히 정리해나가는 습관을 기르고 싶어 이렇게 신청하게 되었습니다.</p>
+<p><strong>3. </strong><strong>사실 서울시민열린옷장이 취지와 프로그램이 좋은 것은 알지만, 신청을 결심하시기 까지는 쉽지는 않았을 것 같습니다. 결정하는데 걱정되었던 부분이 있으셨나요? </strong></p>
+<p>정리되지 않은 모습을 남들에게 보여주기 쉽지는 않지만, 공인된 정리전문가분들이 오시고 문제점을 알아야 개선될 수 있는 것이니 그런 마음이 덜 들더라고요.</p>
+<p>사실 그것보다, 기증할 옷들이 많지 않아서 ‘괜히 오셔서 수고만 하고 돌아가시는 건 아닌가?’하는 생각에 신청을 해도 되나 했는데, 신청할 때 미리 옷장사진을 찍어서 보내고 판단을 해주셔서 좋았습니다.</p>
+<p>그리고 남편과 상의하기 전에 먼저 신청을 했는데, 다행히 남편도 흔쾌히 동의해주었습니다 ㅎㅎ</p>
+<p><strong>4. </strong><strong>특별한 사연이 있거나 좋은 기억이 깃든 옷이 있으신가요? </strong></p>
+<p>기증한 옷들 중엔 사실 특별한 옷들이 없네요. 하지만 정리하다 보니 기억이 나는 것들이 몇 가지 있네요. 이건 연예인 유아인 씨 옷이에요. 영화 『완득이』에서 입었던 옷이라고 하더라고요. 남편이 받은건데요. 친분이 있는 건 아니고요 어떻게 받은 건지 사실 잘 모르겠어요 ㅎㅎ</p>
+<p>그리고 이건 남편이 사준 옷인데요. 제가 아끼는 옷입니다~ 옷 자체가 예쁘기도 하고, 결혼 몇 일 전에 함께 돌아다니며 받은 옷이에요^^</p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/07/IMG_28441-e1374742473410.jpg" ><img class="alignnone size-full wp-image-147" alt="IMG_2844" src="<%= url_for '/' %>wp-content/uploads/2013/07/IMG_28441-e1374742473410.jpg" width="2736" height="3648" /></a></p>
+<p>&nbsp;</p>
+<p><strong>5. </strong><strong>그 동안 옷을 버리지 못하고 정리하지 못했던 이유가 있을까요?</strong></p>
+<p>언젠가는 쓰겠지 하는 생각이 들어서 버리기 쉽지 않더라고요. 이제부터는 정리하는 습관을 배워서 필요 없는 건 가지고 있지 않겠습니다~</p>
+<p><strong>6. </strong><strong>정리를 한 후 옷장을 보니 어떤 느낌이 드시나요? 그리고 어떤 점이 도움이 되었나요?</strong></p>
+<p>공간의 크기는 원래 그대로인데, 엄청 넓어진 것 같아요. 이렇게 정리정돈이 잘 될 수 있다니~마음까지 확 시원해진 느낌이네요. 그리고 이번에 정리하면서 정리하는 법도 배우고 싶었는데, 정리하시는 것 보면서 앞으로 체계적으로 공간을 활용하고, 서랍 속을 어떻게 활용해야 하는지 배울 수 있었습니다.</p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/07/IMG_2912.jpg" ><img class="alignnone size-full wp-image-150" alt="IMG_2912" src="<%= url_for '/' %>wp-content/uploads/2013/07/IMG_2912.jpg" width="3648" height="2736" /></a></p>
+<p>&nbsp;</p>
+<p><strong>7. </strong><strong>처음에는 기대 반 걱정 반이셨을 텐데, 직접 경험해 보셨으니 앞으로 신청을 하실 분들에게 한 말씀 부탁드립니다.</strong></p>
+<p>조금 옷 관리가 안되어있어 마음에 걸렸지만, 오시기전에 조금은 자기가 정리해놓으면 더 좋을 것 같습니다. 그리고 혼자 정리하려면 걱정부터 드는데 같이 하면서 또 배우니깐 매우 좋네요. 신청을 고민하시는 분들 걱정하지 마시고 적극적으로 신청해보세요.</p>
+<p>또한, 정리를 하는 것이긴 하지만 이 옷들이 모두 기증되는 것이라 하니 기증했다는 뿌듯함과  Tip으로 정리법까지 배운다고 생각하면 기분 좋게 신청하실 수 있을 거라 생각이 드네요.</p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/07/IMG_2900.jpg" ><img class="alignnone size-full wp-image-149" alt="IMG_2900" src="<%= url_for '/' %>wp-content/uploads/2013/07/IMG_2900.jpg" width="3648" height="2736" /></a></p>
+<p>&nbsp;</p>
+<p><strong>8. </strong><strong>기증하신 옷들은 이제 다른 누군가가 입게 될 텐데, 그 분들에게 메시지를 남겨주세요.</strong></p>
+<p>정장은 이제 서울시민 공유옷장에 들어가게 되는데 좋은 옷을 드리지 못해 죄송스럽네요. 앞으로 서울시민옷장에 의미 있는 많은 옷들이 기증이 될 텐데, 그 기운을 받아 청년들이 자신이 하고 싶은 일을 할 수 있었으면 좋겠습니다. 감사합니다^^</p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/07/IMG_2915.jpg" ><img class="alignnone size-full wp-image-152" alt="IMG_2915" src="<%= url_for '/' %>wp-content/uploads/2013/07/IMG_2915.jpg" width="3648" height="2736" /></a></p>
+<p>&nbsp;</p>
+    </div>
+    <footer>
+          </footer>
+    <section id="comments">
+  <hr class='dot' style='height:6px'>
+  <div class="fb-comments" data-href="<%= url_for '/' %>%ed%85%8c%ec%8a%a4%ed%8a%b8-13/" data-width="620px" data-num-posts="10"></div>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=131097673763497";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+</section>  </article>
+    </div><!-- /.main -->
+        <aside class="sidebar span4" role="complementary">
+      <hr class='dot'>
+      		<section class="widget recent-posts-2 widget_recent_entries"><div class="widget-inner">		<h3>최신 글</h3>		<ul>
+					<li>
+				<a href="<%= url_for '/' %>1149/" title="정리도 교육이 필요함을 알았어요">정리도 교육이 필요함을 알았어요</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>%eb%91%90%ea%b7%bc%ea%b1%b0%eb%a6%ac%eb%8a%94-%eb%a7%88%ec%9d%8c%ec%9c%bc%eb%a1%9c-%ec%9e%85%ec%97%88%eb%8d%98-%ec%98%b7%eb%93%a4%ec%9e%85%eb%8b%88%eb%8b%a4/" title="두근거리는 마음으로 입었던 옷들입니다">두근거리는 마음으로 입었던 옷들입니다</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>1115/" title="옷 정리와 함께 돈 벌었어요!">옷 정리와 함께 돈 벌었어요!</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>1098/" title="정리 전엔 늘 같은 옷만 입었어요">정리 전엔 늘 같은 옷만 입었어요</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>%ec%95%9e%ec%9c%bc%eb%a1%9c%eb%8a%94-%ec%a0%95%eb%a6%ac%ed%95%b4%ea%b0%80%eb%a9%b0-%ec%82%b4%ea%b2%a0%eb%8b%a4%eb%8a%94-%eb%8b%a4%ec%a7%90/" title="앞으로는 정리하며 살겠다는 다짐^^">앞으로는 정리하며 살겠다는 다짐^^</a>
+						</li>
+				</ul>
+		</div></section><section class="widget recent-comments-2 widget_recent_comments"><div class="widget-inner"><h3>최신 댓글</h3><ul id="recentcomments"></ul></div></section>    </aside><!-- /.sidebar -->
+      </div><!-- /.content -->
+</div><!-- /.wrap -->

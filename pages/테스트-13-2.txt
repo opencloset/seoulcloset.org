@@ -1,0 +1,102 @@
+  <style>
+  .story_sub_info {
+  	height: 160px;
+  	background-image: url(/assets/img/story_background.png);
+  	background-repeat: repeat-x;
+  	text-align: center;
+  	padding-top: 40px;
+  }
+  
+  body.single .content a { color:#f8ce08; }
+  body.single .content article .entry-title, body.single article time { color:#f8ce08; }
+  body.single .content article .entry-content { padding:2em 0; }
+  body.single .content article footer { background:none; }
+  body.single .content article .meta { color:#c1c1c1; }
+  body.single .content aside { color:#f8ce08; }
+  body.single .content aside .widget { margin-bottom:2em; }
+  body.single .content aside ul { }
+  body.single .content aside a { color:#000; }
+</style>
+<div class="story_sub_info">
+	<img src="/assets/img/story_info_text.png"/>
+</div>
+
+<div class="wrap container" role="document">
+  <div class="content row">
+
+    <div class="main span8" role="main">
+      <hr class='dot'>
+        <article class="post-67 post type-post status-publish format-standard hentry category-stories">
+    <header>
+      <h1 class="entry-title">6년 동안 묵은 정리 끝냈어요~</h1>
+      <div class='meta'>
+  Posted 
+  at <time class="updated" datetime="2013-07-01T15:02:56+00:00" pubdate>2013-07-01</time>
+  by <span class="byline author vcard">By <a href="<%= url_for '/' %>author/rest515/" rel="author" class="fn">rest515</a></span>
+</div>
+    </header>
+    <div class="entry-content">
+      <div>
+<div id="view_cnt">
+<div id="articleBody">
+<div id="_article">
+<div><strong><span style="font-size: x-large;">옷장 정리해 주고, 안입는옷 기증받고… ‘착한서비스’ 뜬다</span></strong></div>
+<p>&nbsp;</p>
+<div></div>
+<div id="view_cnt">
+<p id="articleImgTag"><img id="articleImg" alt="" src="http://image.kukinews.com/online_image/2013/0723/130723_17_1.jpg" /></p>
+<div id="articleBody">
+<div id="_article">
+<p><b>‘서울시민열린옷장’ 무료 서비스 받은 원혜숙 씨</b>“이거는요?”“그거 안 입는 거에요.”“이건요?” “안 입어요.” “이건?” “어, 그게 왜 거기 있지!”셋에 하나는 ‘안 입는다’는 답이었다. 하지만 어떤 것은 ‘찾던 것’이라며 반색을 했다. 굵은 빗줄기가 한바탕 내렸던 지난 18일 서울 중림동 원혜숙(55)씨 집의 안방 드레스룸 풍경이다.원씨는 서울시가 ‘열린옷장’과 손잡고 펼치는 ‘서울시민열린옷장’에 신청, 이날 옷장 정리 무료 서비스를 받았다. 정리전문업체 ㈜제타랩 김호정 대표와 정미숙 이<span>사</span>, 두 사람이 낮 12시30분에 시작한 드레스룸 정리는 6시간이나 걸렸다. 원씨는 6년 전 주상복합아파트인 이곳으로 이사 오면서 장롱을 둘 곳이 마땅치 않아 처분했다. 원씨 부부와 남매, 4명의 옷을 넣을 곳은 안방에 달린 드레스룸과 작은 방에 있는 붙박이장이 전부. 그러다보니 드레스룸에는 옷은 물론 쓰지 않는 수건, 양말 등이 쌓이게 됐다.</p>
+<p>김 대표는 “드레스룸을 얼핏 봤을 때는 나름대로 정리돼 있는 것처럼 보였지만 자세히 살펴보니 원씨 부부의 사계절 옷이 마구 섞여 필요한 옷도 제대로 찾아 입을 수 없도록 뒤엉켜 있었다”고 말했다. 옷이 겹겹이 쌓여 있는 곳은 보자기로 살짝 덮어 복잡한 것을 숨겼던 것. 하지만 넥타이 걸이에는 옷들이 십여 벌 걸쳐져 있어 넥타이를 꺼낼 수도 없게 돼 있었고, 고가의 핸드백들도 제자리를 찾지 못한 채 바닥에 뒹굴면서 모양이 망가져 있었다. 원씨의 드레스룸에서는 대학을 졸업한 딸이 초등학교 운동회 때 쓰던 청군백군 모자부터 상표도 떼지 않은 바지 등 원씨도 기억하지 못하는 물건들이 쏟아져 나왔다. 다시는 쓰지 않을 것들을 가려내니 라면상자보다 큼직한 상자(50×40×30㎝)로 7개나 됐다. 고작 10㎡남짓한 드레스룸에서 나온 것이라고는 믿기지 않을 만큼 많았다.</p>
+<p>복잡한 드레스룸을 공개하는 게 꺼려져 망설이다 신청했다는 원씨는 “머리까지 묵직하게 만들었던 드레스룸을 정리해서 날아갈 것 같다”면서 드레스룸을 말끔하게 정리한 김 대표와 정 이사가 존경스럽기까지 하다며 고마워했다.</p>
+<p>열린 옷장 김소령 공동 대표는 “이 옷들은 원씨의 이름으로 기증된다”면서 많은 옷들을 기증한 원씨에게 감사패를 전달했다. 정장류는 비영리단체 ‘열린옷장’으로 보내진다. 김 공동 대표는 “‘열린옷장’의 이용자 50% 이상이 면접을 하기 위해 정장을 빌리는 청년구직자들”이라며 원씨가 기증한 정장들은 이들에게 취업의 기회를 열어주는 데 큰 도움이 될 것이라고 전했다. 나머지 옷과 가방 등 소품은 제3세계<span> </span>어린이들을 돕는 비영리단체 ‘옷캔’으로 보낸다.</p>
+<p>원씨는 “정리해서 드레스룸도 깔끔해지고 안 입는 옷들로 남을 도울 수 있다니 더욱 기쁘다”면서 이런 기회를 마련해준 서울시에도 감사한다고 인사를 전했다. 원씨는 ‘열린옷장’이 젊은이들을 돕는 비영리단체라는 설명에 딸의 옷장을 정리한 뒤 나온 정장은 모두 보내주겠다고 약속했다.</p>
+<p>서울시민열린옷장은 서울 소재 가정으로 정장 1벌 이상을 기증할 수 있으면 누구나 신청할 수 있다. 11월30일까지 홈페이지(www.seoulcloset.org)에서 신청을 받고 있다. 옷장 정리가 필요한 이유, 정리할 옷장의 개수와 크기, 기증가능한 정장의 벌수 등을 기재해놓으면 신청 후 1주일 내에 연락을 해준다. 72가구를 선정해 무료로 서비스를 제공할 계획이다. 정장을 10벌 이상 기증하면 ㈜제타랩에서 정리 컨설턴트 교육수강권 1매(20만원 상당)를 선물한다.</p>
+<p>김혜림 선임기자 mskim@kmib.co.kr</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p>&nbsp;</p>
+    </div>
+    <footer>
+          </footer>
+    <section id="comments">
+  <hr class='dot' style='height:6px'>
+  <div class="fb-comments" data-href="<%= url_for '/' %>%ed%85%8c%ec%8a%a4%ed%8a%b8-13-2/" data-width="620px" data-num-posts="10"></div>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=131097673763497";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+</section>  </article>
+    </div><!-- /.main -->
+        <aside class="sidebar span4" role="complementary">
+      <hr class='dot'>
+      		<section class="widget recent-posts-2 widget_recent_entries"><div class="widget-inner">		<h3>최신 글</h3>		<ul>
+					<li>
+				<a href="<%= url_for '/' %>1149/" title="정리도 교육이 필요함을 알았어요">정리도 교육이 필요함을 알았어요</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>%eb%91%90%ea%b7%bc%ea%b1%b0%eb%a6%ac%eb%8a%94-%eb%a7%88%ec%9d%8c%ec%9c%bc%eb%a1%9c-%ec%9e%85%ec%97%88%eb%8d%98-%ec%98%b7%eb%93%a4%ec%9e%85%eb%8b%88%eb%8b%a4/" title="두근거리는 마음으로 입었던 옷들입니다">두근거리는 마음으로 입었던 옷들입니다</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>1115/" title="옷 정리와 함께 돈 벌었어요!">옷 정리와 함께 돈 벌었어요!</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>1098/" title="정리 전엔 늘 같은 옷만 입었어요">정리 전엔 늘 같은 옷만 입었어요</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>%ec%95%9e%ec%9c%bc%eb%a1%9c%eb%8a%94-%ec%a0%95%eb%a6%ac%ed%95%b4%ea%b0%80%eb%a9%b0-%ec%82%b4%ea%b2%a0%eb%8b%a4%eb%8a%94-%eb%8b%a4%ec%a7%90/" title="앞으로는 정리하며 살겠다는 다짐^^">앞으로는 정리하며 살겠다는 다짐^^</a>
+						</li>
+				</ul>
+		</div></section><section class="widget recent-comments-2 widget_recent_comments"><div class="widget-inner"><h3>최신 댓글</h3><ul id="recentcomments"></ul></div></section>    </aside><!-- /.sidebar -->
+      </div><!-- /.content -->
+</div><!-- /.wrap -->

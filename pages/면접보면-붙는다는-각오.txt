@@ -1,0 +1,106 @@
+  <style>
+  .story_sub_info {
+  	height: 160px;
+  	background-image: url(/assets/img/story_background.png);
+  	background-repeat: repeat-x;
+  	text-align: center;
+  	padding-top: 40px;
+  }
+  
+  body.single .content a { color:#f8ce08; }
+  body.single .content article .entry-title, body.single article time { color:#f8ce08; }
+  body.single .content article .entry-content { padding:2em 0; }
+  body.single .content article footer { background:none; }
+  body.single .content article .meta { color:#c1c1c1; }
+  body.single .content aside { color:#f8ce08; }
+  body.single .content aside .widget { margin-bottom:2em; }
+  body.single .content aside ul { }
+  body.single .content aside a { color:#000; }
+</style>
+<div class="story_sub_info">
+	<img src="/assets/img/story_info_text.png"/>
+</div>
+
+<div class="wrap container" role="document">
+  <div class="content row">
+
+    <div class="main span8" role="main">
+      <hr class='dot'>
+        <article class="post-548 post type-post status-publish format-standard hentry category-stories">
+    <header>
+      <h1 class="entry-title">면접보면 붙는다는 각오!!</h1>
+      <div class='meta'>
+  Posted 
+  at <time class="updated" datetime="2013-11-07T12:14:42+00:00" pubdate>2013-11-07</time>
+  by <span class="byline author vcard">By <a href="<%= url_for '/' %>author/10001if/" rel="author" class="fn">10001if</a></span>
+</div>
+    </header>
+    <div class="entry-content">
+      <p><a href="<%= url_for '/' %>wp-content/uploads/2013/11/20130926_143332.jpg" ><img class="alignnone size-medium wp-image-554" alt="20130926_143332" src="<%= url_for '/' %>wp-content/uploads/2013/11/20130926_143332-225x300.jpg" width="225" height="300" /></a>  <a href="<%= url_for '/' %>wp-content/uploads/2013/11/20130926_143233.jpg" ><img class="alignnone size-medium wp-image-555" alt="20130926_143233" src="<%= url_for '/' %>wp-content/uploads/2013/11/20130926_143233-225x300.jpg" width="225" height="300" /></a></p>
+<p>&nbsp;</p>
+<p><strong>Q. 옷장정리를 신청하게 된 계기는?</strong></p>
+<p>우연히 기사검색을 하다가 열린옷장 프로젝트의 기사를 접하게 되었습니다.</p>
+<p>취지도 마음에 들었고 무엇보다도 옷장 정리는 주부들의 로망이니까요.</p>
+<p>맞벌이 부부라서 옷장 정리는 너무도 무시무시한 집안일이었는데 혹시나 하는 마음으로 신청하게 되었습니다.</p>
+<p>&nbsp;</p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/11/20130926_143048.jpg" ><img class="alignnone size-medium wp-image-551" alt="20130926_143048" src="<%= url_for '/' %>wp-content/uploads/2013/11/20130926_143048-225x300.jpg" width="225" height="300" /></a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>Q. 정리전문가들과 함께 옷장정리를 해본 소감은?</strong></p>
+<p>컬러별로 옷을 정리한다거나, 안 입는 옷은 과감하게 정리해서 공간을 마련하고</p>
+<p>옷장정리에도 인터페이스 설계가 중요한 거 같아요.</p>
+<p>&nbsp;</p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/11/20130926_143109.jpg" ><img class="alignnone size-medium wp-image-553" alt="20130926_143109" src="<%= url_for '/' %>wp-content/uploads/2013/11/20130926_143109-225x300.jpg" width="225" height="300" /></a></p>
+<p>&nbsp;</p>
+<p><strong>Q. 안 입는 옷으로 분류된 정장류는 열린옷장에 기증되어 정장이 필요한 구직자들에게 대여됩니다. </strong></p>
+<p><strong>기증하시는 정장에 담긴 이야기를 들려주세요.</strong></p>
+<p>정장이 10벌 넘게 나와서 하나하나 말하긴 어렵지만 정장이란 대부분 좋은 일이 있을 때 마련하게 되지요.</p>
+<p>특히, 저처럼 IT업계 종사자는 면접 혹은 결혼식이 아니면 정장차림을 하지않게 됩니다.</p>
+<p>제가 기증한 정장은 모두 좋은 결과를 가져온 것들이니 행운이 같이 했으면 합니다.</p>
+<p>네이버에 입사면접 봤을 때, 선배언니 결혼식에서 부케를 받았을 때, 출장에 가서 파트너를 만나야할 때 등등</p>
+<p>기쁘고 좋은 사연들을 가진 옷들이랍니다.</p>
+<p>&nbsp;</p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/11/20130926_143058.jpg" ><img class="alignnone size-medium wp-image-552" alt="20130926_143058" src="<%= url_for '/' %>wp-content/uploads/2013/11/20130926_143058-225x300.jpg" width="225" height="300" /></a></p>
+<p>&nbsp;</p>
+<p><strong>Q. 기증해주신 정장을 입고 입사면접을 보게 될 구직자들에게 사회선배로서 응원을 해주신다면?</strong></p>
+<p>&#8220;면접 보면 붙는다&#8221;</p>
+<p>기증하는 옷들에 함께 가는 추억과 메시지입니다.</p>
+<p>꼭 입사하고 싶으신 곳이 있을 때 입고 가세요.</p>
+    </div>
+    <footer>
+          </footer>
+    <section id="comments">
+  <hr class='dot' style='height:6px'>
+  <div class="fb-comments" data-href="<%= url_for '/' %>%eb%a9%b4%ec%a0%91%eb%b3%b4%eb%a9%b4-%eb%b6%99%eb%8a%94%eb%8b%a4%eb%8a%94-%ea%b0%81%ec%98%a4/" data-width="620px" data-num-posts="10"></div>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=131097673763497";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+</section>  </article>
+    </div><!-- /.main -->
+        <aside class="sidebar span4" role="complementary">
+      <hr class='dot'>
+      		<section class="widget recent-posts-2 widget_recent_entries"><div class="widget-inner">		<h3>최신 글</h3>		<ul>
+					<li>
+				<a href="<%= url_for '/' %>1149/" title="정리도 교육이 필요함을 알았어요">정리도 교육이 필요함을 알았어요</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>%eb%91%90%ea%b7%bc%ea%b1%b0%eb%a6%ac%eb%8a%94-%eb%a7%88%ec%9d%8c%ec%9c%bc%eb%a1%9c-%ec%9e%85%ec%97%88%eb%8d%98-%ec%98%b7%eb%93%a4%ec%9e%85%eb%8b%88%eb%8b%a4/" title="두근거리는 마음으로 입었던 옷들입니다">두근거리는 마음으로 입었던 옷들입니다</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>1115/" title="옷 정리와 함께 돈 벌었어요!">옷 정리와 함께 돈 벌었어요!</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>1098/" title="정리 전엔 늘 같은 옷만 입었어요">정리 전엔 늘 같은 옷만 입었어요</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>%ec%95%9e%ec%9c%bc%eb%a1%9c%eb%8a%94-%ec%a0%95%eb%a6%ac%ed%95%b4%ea%b0%80%eb%a9%b0-%ec%82%b4%ea%b2%a0%eb%8b%a4%eb%8a%94-%eb%8b%a4%ec%a7%90/" title="앞으로는 정리하며 살겠다는 다짐^^">앞으로는 정리하며 살겠다는 다짐^^</a>
+						</li>
+				</ul>
+		</div></section><section class="widget recent-comments-2 widget_recent_comments"><div class="widget-inner"><h3>최신 댓글</h3><ul id="recentcomments"></ul></div></section>    </aside><!-- /.sidebar -->
+      </div><!-- /.content -->
+</div><!-- /.wrap -->

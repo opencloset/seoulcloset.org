@@ -1,0 +1,97 @@
+  <style>
+  .story_sub_info {
+  	height: 160px;
+  	background-image: url(/assets/img/story_background.png);
+  	background-repeat: repeat-x;
+  	text-align: center;
+  	padding-top: 40px;
+  }
+  
+  body.single .content a { color:#f8ce08; }
+  body.single .content article .entry-title, body.single article time { color:#f8ce08; }
+  body.single .content article .entry-content { padding:2em 0; }
+  body.single .content article footer { background:none; }
+  body.single .content article .meta { color:#c1c1c1; }
+  body.single .content aside { color:#f8ce08; }
+  body.single .content aside .widget { margin-bottom:2em; }
+  body.single .content aside ul { }
+  body.single .content aside a { color:#000; }
+</style>
+<div class="story_sub_info">
+	<img src="/assets/img/story_info_text.png"/>
+</div>
+
+<div class="wrap container" role="document">
+  <div class="content row">
+
+    <div class="main span8" role="main">
+      <hr class='dot'>
+        <article class="post-1018 post type-post status-publish format-standard hentry category-stories">
+    <header>
+      <h1 class="entry-title">20대 청년들, 화이팅입니다~~</h1>
+      <div class='meta'>
+  Posted 
+  at <time class="updated" datetime="2013-12-09T21:59:32+00:00" pubdate>2013-12-09</time>
+  by <span class="byline author vcard">By <a href="<%= url_for '/' %>author/10001if/" rel="author" class="fn">10001if</a></span>
+</div>
+    </header>
+    <div class="entry-content">
+      <p><a href="<%= url_for '/' %>wp-content/uploads/2013/12/mms_img2085145096.jpg" ><img class="alignnone size-medium wp-image-1017" alt="mms_img2085145096" src="<%= url_for '/' %>wp-content/uploads/2013/12/mms_img2085145096-300x225.jpg" width="300" height="225" /></a>    <a href="<%= url_for '/' %>wp-content/uploads/2013/12/mms_img1587031543.jpg" ><img class="alignnone size-medium wp-image-1015" alt="mms_img1587031543" src="<%= url_for '/' %>wp-content/uploads/2013/12/mms_img1587031543-300x225.jpg" width="300" height="225" /></a></p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/12/mms_img762518234.jpg" ><img class="alignnone size-medium wp-image-1013" alt="mms_img762518234" src="<%= url_for '/' %>wp-content/uploads/2013/12/mms_img762518234-300x225.jpg" width="300" height="225" /></a>    <a href="<%= url_for '/' %>wp-content/uploads/2013/12/mms_img-335620007.jpg" ><img class="alignnone size-medium wp-image-1011" alt="mms_img-335620007" src="<%= url_for '/' %>wp-content/uploads/2013/12/mms_img-335620007-300x225.jpg" width="300" height="225" /></a></p>
+<p>&nbsp;</p>
+<p>Q. 옷장 정리를 신청하시게 된 계기는?</p>
+<p>생생정보통을 보다가 서울시에서 이렇게 좋은 일을 하고 있다는 걸 알게 되었어요.</p>
+<p>제가 안 입는 옷이지만 청년들에게 도움을 줄 수 있으면서 집 옷장을 정리할 수 있다니</p>
+<p>귀가 번쩍 뜨이더라구요. 그래서 바로 신청하게 되었습니다.</p>
+<p>&nbsp;</p>
+<p>Q. 정리 전문가들과 함께 옷장정리를 해보신 소감은?</p>
+<p>역시 다르구나. 집에 부피만 차지하고 공간이 왜 이리 없지 만날 생각했는데</p>
+<p>정리하고 나니 공간이 정말 많아지고 집이 깨끗해졌어요. 너무 기분이 좋아요.</p>
+<p>색깔별로 정리하고, 비닐은 벗겨두고, 차곡차곡 집에서 개어두고, 여러가지를 배웠어요.</p>
+<p>Q. 기증하시는 옷들은 어떤 이야기를 품고 있나요?</p>
+<p>제가 기증하는 옷은 제가 20대에 면접을 보러다니며 회사를 다니며 입었던 옷이에요.</p>
+<p>그 옷을 입고 합격하고, 신나는 마음으로 회사를 다녔습니다.</p>
+<p>이제는 두 아이의 엄마가 곧 되는데</p>
+<p>청년들이 이 옷을 입고 저처럼 화이팅하며 사회생활하면 좋겠어요.</p>
+<p>&nbsp;</p>
+<p>Q. 기증해주신 옷을 입고 입사면접을 보게 될 구직자들을 응원해주신다면?</p>
+<p>20대 청년들 요즘 많이 지치고 어렵지만 항상 잘하고 있다고 응원하고 싶어요.</p>
+<p>화이팅입니다!</p>
+    </div>
+    <footer>
+          </footer>
+    <section id="comments">
+  <hr class='dot' style='height:6px'>
+  <div class="fb-comments" data-href="<%= url_for '/' %>20%eb%8c%80-%ec%b2%ad%eb%85%84%eb%93%a4-%ed%99%94%ec%9d%b4%ed%8c%85%ec%9e%85%eb%8b%88%eb%8b%a4/" data-width="620px" data-num-posts="10"></div>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=131097673763497";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+</section>  </article>
+    </div><!-- /.main -->
+        <aside class="sidebar span4" role="complementary">
+      <hr class='dot'>
+      		<section class="widget recent-posts-2 widget_recent_entries"><div class="widget-inner">		<h3>최신 글</h3>		<ul>
+					<li>
+				<a href="<%= url_for '/' %>1149/" title="정리도 교육이 필요함을 알았어요">정리도 교육이 필요함을 알았어요</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>%eb%91%90%ea%b7%bc%ea%b1%b0%eb%a6%ac%eb%8a%94-%eb%a7%88%ec%9d%8c%ec%9c%bc%eb%a1%9c-%ec%9e%85%ec%97%88%eb%8d%98-%ec%98%b7%eb%93%a4%ec%9e%85%eb%8b%88%eb%8b%a4/" title="두근거리는 마음으로 입었던 옷들입니다">두근거리는 마음으로 입었던 옷들입니다</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>1115/" title="옷 정리와 함께 돈 벌었어요!">옷 정리와 함께 돈 벌었어요!</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>1098/" title="정리 전엔 늘 같은 옷만 입었어요">정리 전엔 늘 같은 옷만 입었어요</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>%ec%95%9e%ec%9c%bc%eb%a1%9c%eb%8a%94-%ec%a0%95%eb%a6%ac%ed%95%b4%ea%b0%80%eb%a9%b0-%ec%82%b4%ea%b2%a0%eb%8b%a4%eb%8a%94-%eb%8b%a4%ec%a7%90/" title="앞으로는 정리하며 살겠다는 다짐^^">앞으로는 정리하며 살겠다는 다짐^^</a>
+						</li>
+				</ul>
+		</div></section><section class="widget recent-comments-2 widget_recent_comments"><div class="widget-inner"><h3>최신 댓글</h3><ul id="recentcomments"></ul></div></section>    </aside><!-- /.sidebar -->
+      </div><!-- /.content -->
+</div><!-- /.wrap -->

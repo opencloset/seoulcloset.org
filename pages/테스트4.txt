@@ -1,0 +1,120 @@
+  <style>
+  .story_sub_info {
+  	height: 160px;
+  	background-image: url(/assets/img/story_background.png);
+  	background-repeat: repeat-x;
+  	text-align: center;
+  	padding-top: 40px;
+  }
+  
+  body.single .content a { color:#f8ce08; }
+  body.single .content article .entry-title, body.single article time { color:#f8ce08; }
+  body.single .content article .entry-content { padding:2em 0; }
+  body.single .content article footer { background:none; }
+  body.single .content article .meta { color:#c1c1c1; }
+  body.single .content aside { color:#f8ce08; }
+  body.single .content aside .widget { margin-bottom:2em; }
+  body.single .content aside ul { }
+  body.single .content aside a { color:#000; }
+</style>
+<div class="story_sub_info">
+	<img src="/assets/img/story_info_text.png"/>
+</div>
+
+<div class="wrap container" role="document">
+  <div class="content row">
+
+    <div class="main span8" role="main">
+      <hr class='dot'>
+        <article class="post-45 post type-post status-publish format-standard hentry category-stories">
+    <header>
+      <h1 class="entry-title">정리된 옷장,남편이 더 좋아해요!</h1>
+      <div class='meta'>
+  Posted 
+  at <time class="updated" datetime="2013-07-01T14:34:31+00:00" pubdate>2013-07-01</time>
+  by <span class="byline author vcard">By <a href="<%= url_for '/' %>author/rest515/" rel="author" class="fn">rest515</a></span>
+</div>
+    </header>
+    <div class="entry-content">
+      <p>유상아 님 옷장 정리가 있던 날에는</p>
+<p>아침에 연락이 안 되어 한참 발을 동동 굴렀답니다.</p>
+<p>알고 보니, 아이가 아침잠을 자서 전화도 못받았다는&#8230;^^</p>
+<p>아이가 11개월..2주후에 돌잔치라고 하네요..</p>
+<p>워낙 잘 먹지 않아 아이가 작고</p>
+<p>이사온지도 얼마 안되고 낮도 가리고,,,</p>
+<p>상아 님은 조금씩 지쳐가고 있는 상황이었다고 해요.</p>
+<p>더구나 남편은 일찍 출근해서 늦게 퇴근하고&#8230;.</p>
+<p>하루종일 아이를 케어하느라 집안일은 뒷전 인지 오래셨다고 해요.</p>
+<p>유상아님이 옷장정리를 신청하게 되신 계기를 직접 들어봤습니다.</p>
+<p>&nbsp;</p>
+<p><strong>Q. 옷장 정리를 신청하게 된 계기는?</strong></p>
+<p>아기가 태어나고 이사 후 수납공간 활용을 제대로 하지못해 정리가 되지 않았어요.</p>
+<p>물려받은 아이옷들까지&#8230; 수습이 안되더라구요.</p>
+<p>&nbsp;</p>
+<p><strong>Q. 정리전문가들과 함께 옷장정리를 해보신 소감은?</strong></p>
+<p>옷걸이에 옷을 잘 걸지 않았었는데 걸어놓으니 확실히 다르더라구요.</p>
+<p>수납공간이 적다고 불평만 했었는데 방법의 차이였어요.</p>
+<p>&nbsp;</p>
+<p><strong>Q. 이번에 정리 후 기증하시는 정장들은 어떤 이야기를 품고 있나요? </strong></p>
+<p>아기 가지기 전 학원에서 근무할 때 입던 옷들이에요.</p>
+<p>학부모들께서 어려보인다고 믿음이 가지 않는다고 많이들 하셨던 생각이 나네요.</p>
+<p>&nbsp;</p>
+<p><strong>Q. 기증하신 정장을 입게될 구직자들에게 응원메시지 부탁드립니다.</strong></p>
+<p>노력하는 만큼 얻어지는 것 같아요.</p>
+<p>잘하는 일도 좋지만, 좋아하는 일을 해보는 것도 좋은 경험인 것 같아요^^</p>
+<p>&nbsp;</p>
+<p>유상아 님은 옷장 정리가 끝난 후, 남편이 더 좋아 할거 같다고 하시네요.</p>
+<p>앞으로 그대로 유지하기 위해 노력하시겠다는 말씀과 함께 감사를 전해주셨어요.</p>
+<p>더불어 아이의 공간을 많이 만들어 주셔서 감사하다는 말씀도 함께 주셨어요.</p>
+<p>유상아 님! 예쁜 아이, 멋진 남편과 함께 깔끔하게 정리된 옷장을 즐기시릴 바랄게요. 늘 행복하세요~</p>
+<p>&nbsp;</p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/07/20130902_130451.jpg" ><img class="alignnone  wp-image-327" alt="20130902_130451" src="<%= url_for '/' %>wp-content/uploads/2013/07/20130902_130451.jpg" width="705" height="529" /></a></p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/07/20130902_140654.jpg" ><img class="alignnone  wp-image-328" alt="20130902_140654" src="<%= url_for '/' %>wp-content/uploads/2013/07/20130902_140654.jpg" width="705" height="529" /></a></p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/07/20130902_140700.jpg" ><img class="alignnone  wp-image-329" alt="20130902_140700" src="<%= url_for '/' %>wp-content/uploads/2013/07/20130902_140700.jpg" width="705" height="529" /></a></p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/07/20130902_140708.jpg" ><img class="alignnone  wp-image-330" alt="20130902_140708" src="<%= url_for '/' %>wp-content/uploads/2013/07/20130902_140708.jpg" width="705" height="529" /></a></p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/07/20130902_141930.jpg" ><img class="alignnone  wp-image-331" alt="20130902_141930" src="<%= url_for '/' %>wp-content/uploads/2013/07/20130902_141930.jpg" width="705" height="529" /></a></p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/07/20130902_141952.jpg" ><img class="alignnone  wp-image-332" alt="20130902_141952" src="<%= url_for '/' %>wp-content/uploads/2013/07/20130902_141952.jpg" width="529" height="705" /></a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+    </div>
+    <footer>
+          </footer>
+    <section id="comments">
+  <hr class='dot' style='height:6px'>
+  <div class="fb-comments" data-href="<%= url_for '/' %>%ed%85%8c%ec%8a%a4%ed%8a%b84/" data-width="620px" data-num-posts="10"></div>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=131097673763497";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+</section>  </article>
+    </div><!-- /.main -->
+        <aside class="sidebar span4" role="complementary">
+      <hr class='dot'>
+      		<section class="widget recent-posts-2 widget_recent_entries"><div class="widget-inner">		<h3>최신 글</h3>		<ul>
+					<li>
+				<a href="<%= url_for '/' %>1149/" title="정리도 교육이 필요함을 알았어요">정리도 교육이 필요함을 알았어요</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>%eb%91%90%ea%b7%bc%ea%b1%b0%eb%a6%ac%eb%8a%94-%eb%a7%88%ec%9d%8c%ec%9c%bc%eb%a1%9c-%ec%9e%85%ec%97%88%eb%8d%98-%ec%98%b7%eb%93%a4%ec%9e%85%eb%8b%88%eb%8b%a4/" title="두근거리는 마음으로 입었던 옷들입니다">두근거리는 마음으로 입었던 옷들입니다</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>1115/" title="옷 정리와 함께 돈 벌었어요!">옷 정리와 함께 돈 벌었어요!</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>1098/" title="정리 전엔 늘 같은 옷만 입었어요">정리 전엔 늘 같은 옷만 입었어요</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>%ec%95%9e%ec%9c%bc%eb%a1%9c%eb%8a%94-%ec%a0%95%eb%a6%ac%ed%95%b4%ea%b0%80%eb%a9%b0-%ec%82%b4%ea%b2%a0%eb%8b%a4%eb%8a%94-%eb%8b%a4%ec%a7%90/" title="앞으로는 정리하며 살겠다는 다짐^^">앞으로는 정리하며 살겠다는 다짐^^</a>
+						</li>
+				</ul>
+		</div></section><section class="widget recent-comments-2 widget_recent_comments"><div class="widget-inner"><h3>최신 댓글</h3><ul id="recentcomments"></ul></div></section>    </aside><!-- /.sidebar -->
+      </div><!-- /.content -->
+</div><!-- /.wrap -->

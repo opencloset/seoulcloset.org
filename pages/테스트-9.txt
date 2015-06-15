@@ -1,0 +1,126 @@
+  <style>
+  .story_sub_info {
+  	height: 160px;
+  	background-image: url(/assets/img/story_background.png);
+  	background-repeat: repeat-x;
+  	text-align: center;
+  	padding-top: 40px;
+  }
+  
+  body.single .content a { color:#f8ce08; }
+  body.single .content article .entry-title, body.single article time { color:#f8ce08; }
+  body.single .content article .entry-content { padding:2em 0; }
+  body.single .content article footer { background:none; }
+  body.single .content article .meta { color:#c1c1c1; }
+  body.single .content aside { color:#f8ce08; }
+  body.single .content aside .widget { margin-bottom:2em; }
+  body.single .content aside ul { }
+  body.single .content aside a { color:#000; }
+</style>
+<div class="story_sub_info">
+	<img src="/assets/img/story_info_text.png"/>
+</div>
+
+<div class="wrap container" role="document">
+  <div class="content row">
+
+    <div class="main span8" role="main">
+      <hr class='dot'>
+        <article class="post-54 post type-post status-publish format-standard hentry category-stories">
+    <header>
+      <h1 class="entry-title">자신의 인생에 주인이 되세요!</h1>
+      <div class='meta'>
+  Posted 
+  at <time class="updated" datetime="2013-07-01T15:00:36+00:00" pubdate>2013-07-01</time>
+  by <span class="byline author vcard">By <a href="<%= url_for '/' %>author/rest515/" rel="author" class="fn">rest515</a></span>
+</div>
+    </header>
+    <div class="entry-content">
+      <p>&nbsp;</p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/09/1157630_559579027429568_423623905_n.jpg" ><img class="alignnone  wp-image-302" alt="1157630_559579027429568_423623905_n" src="<%= url_for '/' %>wp-content/uploads/2013/09/1157630_559579027429568_423623905_n.jpg" width="471" height="576" /></a></p>
+<p>* 옷장 정리 전, 정리약정서를 작성하고 계신 허정숙님</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>Q. 옷장 정리를 신청하시게 된 계기는 무엇인가요?</strong></p>
+<p>옷장정리를 가끔하지만 추억과 미련이 있는 것들만 쌓여가는 느낌이 들었습니다.</p>
+<p>입는 것은 몇개 안되지만 옷장은 늘 그득합니다.</p>
+<p>나의 추억과 애정이 있는 것들을 도움을 받아</p>
+<p>누군가에게 필요한 것들이 된다면 좋을 수 있을 것 같았습니다.</p>
+<p>좀 더 나누지 못하지만 누군가에게 따뜻함이 되었으면 좋겠습니다.</p>
+<p>&nbsp;</p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/09/1236044_559579430762861_1866294359_n.jpg" ><img class="alignnone  wp-image-299" alt="1236044_559579430762861_1866294359_n" src="<%= url_for '/' %>wp-content/uploads/2013/09/1236044_559579430762861_1866294359_n.jpg" width="576" height="430" /></a></p>
+<p>* 허정숙 님의 추억이 그득그득한 옷장, 깔끔하게 정리된 모습</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>Q. 정리 전문가들과 함께 옷장 정리를 해보신 후 어떤 차이를 느끼셨나요?</strong></p>
+<p>혼자 낑낑거리고 했었는데, 너무나 쉽고 간단하게 옷장 공간에 대한 설계를 하여</p>
+<p>옷장 정리를 하시는 걸 보니 늘 하던 정리와는 차이가 느껴집니다.</p>
+<p>늘상하는 일인데도 전문가의 손길이 닿으니 다른 느낌이 들었습니다.</p>
+<p>&nbsp;</p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/09/1238341_559579334096204_1290589255_n.jpg" ><img class="alignnone  wp-image-298" alt="1238341_559579334096204_1290589255_n" src="<%= url_for '/' %>wp-content/uploads/2013/09/1238341_559579334096204_1290589255_n.jpg" width="430" height="576" /></a></p>
+<p>* 성악을 전공하신 허정숙님의 화려한 추억이 깃든 드레스.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>Q. 안 입는 옷으로 분류된 정장류는 열린옷장에 기증되어 정장이 필요한 구직자들에게 대여됩니다. </strong></p>
+<p><strong>기증하시는 정장은 어떤 이야기를 품고 있나요? </strong></p>
+<p><strong>언제 입었던 옷인지, 어떤 추억이 있으셨는지 들려주세요</strong></p>
+<p>치마를 거의 안입는 제가 쓰리피스나 치마를 선물받는 일이 있습니다.</p>
+<p>아직 용기가 안 생기지만 다른 분들에게 도움이 되면 좋겠습니다.</p>
+<p>앞으로 치마를 입는 일이&#8230; 그런 용기가 생길지 모르겠으나,</p>
+<p>다른 분들에게는 힘과 용기가 되었으면 합니다.</p>
+<p>&nbsp;</p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/09/1175632_559579127429558_1309749407_n.jpg" ><img class="alignnone  wp-image-300" alt="1175632_559579127429558_1309749407_n" src="<%= url_for '/' %>wp-content/uploads/2013/09/1175632_559579127429558_1309749407_n.jpg" width="576" height="430" /></a></p>
+<p>&nbsp;</p>
+<p>* 친정 어머니가 한땀한땀 손수 만들어주신 무릎담요도 옷장 안쪽에서 발견!</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>Q. 기증해주신 정장을 입고 입사 면접을 보게 될 구직자들에게 </strong></p>
+<p><strong>사회 선배로서 혹은 기증자로서 응원메시지를 남겨주신다면?</strong></p>
+<p>살면서 내가 안 겪어도 될 일을 겪는다 생각될때도 있고 좌절스러울 때도 있지만</p>
+<p>잘 이기고 이뤄내면 어느 새 인간적으로 성장해 있는 자신을 만날 수 있을 겁니다.</p>
+<p>파도 없는 바다가 재미없듯이 어려운 상황에서도 힘내서 좋은 일 만들어 내시고,</p>
+<p>자신의 인생에 주인이 되세요. 어떤 상황에서도 긍정적인 것 한가지는 찾아내서</p>
+<p>도전하고 이뤄내시길&#8230; 파이팅!</p>
+<p>&nbsp;</p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/09/1173690_559579427429528_2144328762_n.jpg" ><img class="alignnone  wp-image-297" alt="1173690_559579427429528_2144328762_n" src="<%= url_for '/' %>wp-content/uploads/2013/09/1173690_559579427429528_2144328762_n.jpg" width="501" height="672" /></a></p>
+<p>&nbsp;</p>
+<p>* 옷장 속에 잠들어있던 정장과 의류들을 기증하시는 허정숙님</p>
+<p>&nbsp;</p>
+    </div>
+    <footer>
+          </footer>
+    <section id="comments">
+  <hr class='dot' style='height:6px'>
+  <div class="fb-comments" data-href="<%= url_for '/' %>%ed%85%8c%ec%8a%a4%ed%8a%b8-9/" data-width="620px" data-num-posts="10"></div>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=131097673763497";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+</section>  </article>
+    </div><!-- /.main -->
+        <aside class="sidebar span4" role="complementary">
+      <hr class='dot'>
+      		<section class="widget recent-posts-2 widget_recent_entries"><div class="widget-inner">		<h3>최신 글</h3>		<ul>
+					<li>
+				<a href="<%= url_for '/' %>1149/" title="정리도 교육이 필요함을 알았어요">정리도 교육이 필요함을 알았어요</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>%eb%91%90%ea%b7%bc%ea%b1%b0%eb%a6%ac%eb%8a%94-%eb%a7%88%ec%9d%8c%ec%9c%bc%eb%a1%9c-%ec%9e%85%ec%97%88%eb%8d%98-%ec%98%b7%eb%93%a4%ec%9e%85%eb%8b%88%eb%8b%a4/" title="두근거리는 마음으로 입었던 옷들입니다">두근거리는 마음으로 입었던 옷들입니다</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>1115/" title="옷 정리와 함께 돈 벌었어요!">옷 정리와 함께 돈 벌었어요!</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>1098/" title="정리 전엔 늘 같은 옷만 입었어요">정리 전엔 늘 같은 옷만 입었어요</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>%ec%95%9e%ec%9c%bc%eb%a1%9c%eb%8a%94-%ec%a0%95%eb%a6%ac%ed%95%b4%ea%b0%80%eb%a9%b0-%ec%82%b4%ea%b2%a0%eb%8b%a4%eb%8a%94-%eb%8b%a4%ec%a7%90/" title="앞으로는 정리하며 살겠다는 다짐^^">앞으로는 정리하며 살겠다는 다짐^^</a>
+						</li>
+				</ul>
+		</div></section><section class="widget recent-comments-2 widget_recent_comments"><div class="widget-inner"><h3>최신 댓글</h3><ul id="recentcomments"></ul></div></section>    </aside><!-- /.sidebar -->
+      </div><!-- /.content -->
+</div><!-- /.wrap -->

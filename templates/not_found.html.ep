@@ -1,0 +1,20 @@
+% layout 'seoulcloset', title => 'Page not found', body_class => 'error404', active => '';
+
+  <!--<div class="page-header">
+  <h1>
+    Not Found  </h1>
+</div>-->
+<div class="alert">
+  Sorry, but the page you were trying to view does not exist.</div>
+
+<p>It looks like this was the result of either:</p>
+<ul>
+  <li>a mistyped address</li>
+  <li>an out-of-date link</li>
+</ul>
+
+<form role="search" method="get" id="searchform" class="form-search" action="http://seoulcloset.org/">
+  <label class="hide" for="s">Search for:</label>
+  <input type="text" value="" name="s" id="s" class="search-query" placeholder="Search 서울시민 열린옷장">
+  <input type="submit" id="searchsubmit" value="Search" class="btn">
+</form>

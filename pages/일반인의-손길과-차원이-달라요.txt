@@ -1,0 +1,100 @@
+  <style>
+  .story_sub_info {
+  	height: 160px;
+  	background-image: url(/assets/img/story_background.png);
+  	background-repeat: repeat-x;
+  	text-align: center;
+  	padding-top: 40px;
+  }
+  
+  body.single .content a { color:#f8ce08; }
+  body.single .content article .entry-title, body.single article time { color:#f8ce08; }
+  body.single .content article .entry-content { padding:2em 0; }
+  body.single .content article footer { background:none; }
+  body.single .content article .meta { color:#c1c1c1; }
+  body.single .content aside { color:#f8ce08; }
+  body.single .content aside .widget { margin-bottom:2em; }
+  body.single .content aside ul { }
+  body.single .content aside a { color:#000; }
+</style>
+<div class="story_sub_info">
+	<img src="/assets/img/story_info_text.png"/>
+</div>
+
+<div class="wrap container" role="document">
+  <div class="content row">
+
+    <div class="main span8" role="main">
+      <hr class='dot'>
+        <article class="post-538 post type-post status-publish format-standard hentry category-stories">
+    <header>
+      <h1 class="entry-title">일반인의 손길과 차원이 달라요!</h1>
+      <div class='meta'>
+  Posted 
+  at <time class="updated" datetime="2013-11-07T12:08:03+00:00" pubdate>2013-11-07</time>
+  by <span class="byline author vcard">By <a href="<%= url_for '/' %>author/10001if/" rel="author" class="fn">10001if</a></span>
+</div>
+    </header>
+    <div class="entry-content">
+      <p><a href="<%= url_for '/' %>wp-content/uploads/2013/11/20131005_150549.jpg" ><img class="alignnone size-medium wp-image-542" alt="20131005_150549" src="<%= url_for '/' %>wp-content/uploads/2013/11/20131005_150549-225x300.jpg" width="225" height="300" /></a> <a href="<%= url_for '/' %>wp-content/uploads/2013/11/20131005_170614.jpg" ><img class="alignnone size-medium wp-image-543" alt="20131005_170614" src="<%= url_for '/' %>wp-content/uploads/2013/11/20131005_170614-225x300.jpg" width="225" height="300" /></a></p>
+<p>&nbsp;</p>
+<p><strong>Q. 옷장정리를 신청하게 된 계기는?</strong></p>
+<p>아기 낳고 약 2년간 옷장을 정리못해서 동굴이 되어가서ㅠㅠ</p>
+<p>이모님이 옷을 넣어줄려고 보면 쌓인 옷들이 무너지면서 넘어온다고 하셔서요.</p>
+<p>&nbsp;</p>
+<p><strong>Q. 정리전문가들과 함께 옷장정리를 해본 후 차이는?</strong></p>
+<p>그냥 개고 집어넣는 게 아니라, 공간을 구획화하고 분리해서 정리하는게</p>
+<p>일반인의 손길과는 차원이 달라요. 정리의 달인, 정말 배우고 싶어요. 정말 감사드립니다~</p>
+<p>&nbsp;</p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/11/20131005_180333.jpg" ><img class="alignnone size-medium wp-image-544" alt="20131005_180333" src="<%= url_for '/' %>wp-content/uploads/2013/11/20131005_180333-225x300.jpg" width="225" height="300" /></a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>Q. 안 입는 옷으로 분류된 정장류는 열린옷장에 기증되어 정장이 필요한 구직자들에게 대여됩니다. </strong></p>
+<p><strong>기증하시는 정장에 담긴 이야기를 들려주세요.</strong></p>
+<p>여자정장은 제가 처음 산 비싼 정장이에요. 오래되긴 했지만요^^</p>
+<p>그래도 제가 운좋게 취직 잘하고 아직 사회생활 10년째중이니 제 기운받아서 구직활동 잘 되시길!</p>
+<p>남자정장은 남편 취직 후 산 콤비인데 안 어울린다고 안 입어서 깨끗해요. 마음에 드시면 좋겠어요.</p>
+<p>&nbsp;</p>
+<p><a href="<%= url_for '/' %>wp-content/uploads/2013/11/20131005_180413.jpg" ><img class="alignnone size-medium wp-image-545" alt="20131005_180413" src="<%= url_for '/' %>wp-content/uploads/2013/11/20131005_180413-225x300.jpg" width="225" height="300" /></a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>Q. 기증해주신 정장을 입고 입사면접을 보게 될 구직자들에게 사회선배로서 응원을 해주신다면?</strong></p>
+<p>생각하는대로 이루어지는 것 같아요. 항상 잘 될거라는 생각하시고 건승하세요!</p>
+    </div>
+    <footer>
+          </footer>
+    <section id="comments">
+  <hr class='dot' style='height:6px'>
+  <div class="fb-comments" data-href="<%= url_for '/' %>%ec%9d%bc%eb%b0%98%ec%9d%b8%ec%9d%98-%ec%86%90%ea%b8%b8%ea%b3%bc-%ec%b0%a8%ec%9b%90%ec%9d%b4-%eb%8b%ac%eb%9d%bc%ec%9a%94/" data-width="620px" data-num-posts="10"></div>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=131097673763497";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+</section>  </article>
+    </div><!-- /.main -->
+        <aside class="sidebar span4" role="complementary">
+      <hr class='dot'>
+      		<section class="widget recent-posts-2 widget_recent_entries"><div class="widget-inner">		<h3>최신 글</h3>		<ul>
+					<li>
+				<a href="<%= url_for '/' %>1149/" title="정리도 교육이 필요함을 알았어요">정리도 교육이 필요함을 알았어요</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>%eb%91%90%ea%b7%bc%ea%b1%b0%eb%a6%ac%eb%8a%94-%eb%a7%88%ec%9d%8c%ec%9c%bc%eb%a1%9c-%ec%9e%85%ec%97%88%eb%8d%98-%ec%98%b7%eb%93%a4%ec%9e%85%eb%8b%88%eb%8b%a4/" title="두근거리는 마음으로 입었던 옷들입니다">두근거리는 마음으로 입었던 옷들입니다</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>1115/" title="옷 정리와 함께 돈 벌었어요!">옷 정리와 함께 돈 벌었어요!</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>1098/" title="정리 전엔 늘 같은 옷만 입었어요">정리 전엔 늘 같은 옷만 입었어요</a>
+						</li>
+					<li>
+				<a href="<%= url_for '/' %>%ec%95%9e%ec%9c%bc%eb%a1%9c%eb%8a%94-%ec%a0%95%eb%a6%ac%ed%95%b4%ea%b0%80%eb%a9%b0-%ec%82%b4%ea%b2%a0%eb%8b%a4%eb%8a%94-%eb%8b%a4%ec%a7%90/" title="앞으로는 정리하며 살겠다는 다짐^^">앞으로는 정리하며 살겠다는 다짐^^</a>
+						</li>
+				</ul>
+		</div></section><section class="widget recent-comments-2 widget_recent_comments"><div class="widget-inner"><h3>최신 댓글</h3><ul id="recentcomments"></ul></div></section>    </aside><!-- /.sidebar -->
+      </div><!-- /.content -->
+</div><!-- /.wrap -->
